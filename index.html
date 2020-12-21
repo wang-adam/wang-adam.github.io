@@ -1,57 +1,57 @@
 <html>
     <header>
-        <style>
-            .horizontal {
-                width: 33%;
-                padding: 2px;
-            }
-            .vertical {
-                width: 33%;
-                padding: 2px;
-            }
-            .flex-container{
-                display: flex;         
-            }
+		<title>Adam Wang</title>
+		<style>
+			div{
+			  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+			   "Helvetica Neue", sans-serif;
+			  font-size: 1.25rem;
+			  line-height: 1.5;
+			  overflow: hidden;
+			  word-wrap: break-word;
+			  user-select: none;
+			  padding: 20px;
+			  border:  1px solid black;
+			  margin: 5%;
+			}
+            img{
+				padding: 10px;
+			}
         </style>
     </header>
-    <body>
-        <div style="font-family:verdana">
-            <div style = "text-align: center">
-                <h1>Adam Wang</h1>
-                <p>adamwang@uw.edu</p>
-                <a href="Adam Wang Resume 2020.pdf" target="_blank">my resume</a>
-            </div>
-            <h2>Some of my photos!</h2>
-        </div>
-        <div>
-            <h3 style="font-family:verdana">Landscapes</h3>
-            <img src= "IMG_0894.JPG" class="horizontal" alt="Test Image1" >
-            <img src= "IMG_1644.jpg" class="horizontal" alt="Test Image3">
-            <img src= "IMG_1724.jpg" class="horizontal" alt="Test Image4">
-        </div>
-        <div>
-            <h3 style="font-family:verdana">Wildlife</h3>
-            <img src= "IMG_8654.jpg" class="horizontal" alt="Hawk Photo">
-            <img src= "IMG_0428.CR2.jpg" class="horizontal" alt="Squirrel Photo">
-            <img src= "IMG_4949e.JPG" class="horizontal" alt="Polar Bear Photo">
-        </div>
-        <div>
-            <h3 style="font-family:verdana">Portraits</h3>
-            <img src= "IMG_9355.CR2.jpg" class="vertical" alt="Rosie and Evelyn Photo">
-            <img src= "IMG_9133.CR2.jpg" class="vertical" alt="Jonah Photo">
-            <img src= "IMG_9437.CR2.jpg" class="vertical" alt="Melchi Photo 2">
-        </div>
-        <div class="flex-container" >
-                <img src= "IMG_9252.CR2.jpg" class="vertical" alt="Claire Jung Photo">
-            <div style="width:33%;">
-                <img src= "IMG_9319.CR2.jpg" alt="Rosie Photo" style="width:100%; padding:2px;" >
-                <img src= "IMG_9094.CR2.jpg" alt="Nathan Photo" style="width:100%; padding:2px;">   
-            </div>
-                <img src= "IMG_8518.CR2.jpg" class="vertical" alt="John Photo">
-        </div>
-        
-        <img src= "IMG_9381.CR2.jpg" class="vertical" alt="Nika Photo">
-        <img src= "IMG_9200.CR2.jpg" class="vertical" alt="Melchi Photo 1">
-    </body>
+    <body style="background-color: #F9F0C1">
+	<div id="intro">
+		<p style="font-size: 35">Hello!</p>
+		<img style="width: 25%" align = "right" src="FullSizeRender.jpg" alt="ProfilePicture">
+		<p>My name is <b>Adam Wang</b> and I am a freshman at the 
+		<a href="https://www.cs.washington.edu/" target="_blank">Paul G. Allen School</a> 
+		at the <a href="http://www.washington.edu/" target="_blank">University of Washington.</a></p>
+		<br/>
+		<p>more stuff here</p>
+		<p>Besides programming, I am passionate about photography <a href="photos/index.html" target="_blank">(some of my photos)</a></p>
+	</div>
+	<div>
+			<p><span style="font-size: 25">Quick links: </span>
+			<a ref="mailto:adamwang@uw.edu" href="mailto:adamwang@uw.edu">adamwang@uw.edu</a>         
+			<span style="font-size: 25">·</span>
+			<a href="Adam Wang Resume 2020.pdf" target="_blank">my résumé</a>
+			<span style="font-size: 25">·</span>
+			<a href="https://github.com/adamw24" target="_blank">github</a>
 
+			</p>
+		</div>
+	<div id="projects">
+		<p style="font-size: 25">Some of my past projects: </p>
+		<p>Player vs Player / Player vs Computer TicTacToe</p>
+		<img src="projects/TicTacToe1.png" alt="TicTacToeImage1">
+		<img src="projects/TicTacToe3.png" alt="TicTacToeImage3">
+		<img src="projects/TicTacToe2.png" alt="TicTacToeImage2">
+		<br/><br>
+		<p>Recursively Drawing a Binary Tree</p>
+		<img style="width: 100%; max-width: 1373px"src="projects/BinaryTree.png" alt="BinaryTreeImage">
+		
+		
+		
+	</div>
+	</body>
 </html>
