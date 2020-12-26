@@ -11,48 +11,70 @@
 			  word-wrap: break-word;
 			  user-select: none;
 			  padding: 20px;
-			  border-radius: 2px;
-			  border:  1px solid black;
+			  border-radius: 20px;
+			  border:  2.5px solid black;
 			  margin: 5%;
 			}
             img{
+				border-radius: 20px;
 				padding: 10px;
+			}
+			a{
+				text-decoration: none;
+			}
+			a:hover{
+				color: red;
 			}
         </style>
     </header>
     <body style="background-color: #F9F0C1">
 	<div id="intro">
-		<p style="font-size: 35">Hello!</p>
-		<img style="width: 25%" align = "right" src="FullSizeRender.jpg" alt="ProfilePicture">
+		<p style="font-size: 35">Hello! 👋</p>
+		<img style="width: 25% ; max-width=: 1404px" align = "right" src="ProfilePicture.jpg" alt="ProfilePicture">
 		<p>My name is <b>Adam Wang</b> and I am a freshman at the 
-		<a href="https://www.cs.washington.edu/" target="_blank">Paul G. Allen School</a> 
-		at the <a href="http://www.washington.edu/" target="_blank">University of Washington.</a></p>
+			<a href="https://www.cs.washington.edu/" target="_blank">Paul G. Allen School</a> 
+			at the <a href="http://www.washington.edu/" target="_blank">University of Washington.</a>
+		</p>
 		<br/>
 		<p>more stuff here</p>
-		<p>Besides programming, I am passionate about photography <a href="photos/index.html" target="_blank">(some of my photos)</a></p>
+		<p>Besides programming, I really enjoy taking photos. (<a href="photos/" target="_blank">some of my photos</a>).</p>
 	</div>
-	<div>
-			<p><span style="font-size: 25">Quick links: </span>
+	<div id="links">
+		<p><span style="font-size: 25">Quick links: </span>
 			<a ref="mailto:adamwang@uw.edu" href="mailto:adamwang@uw.edu">adamwang@uw.edu</a>         
 			<span style="font-size: 25">·</span>
-			<a href="Adam Wang Resume 2020.pdf" target="_blank">my résumé</a>
+			<a href="Adam Wang Resume 2020.pdf" target="_blank">resume</a>
 			<span style="font-size: 25">·</span>
 			<a href="https://github.com/adamw24" target="_blank">github</a>
-
-			</p>
-		</div>
+		</p>
+	</div>
 	<div id="projects">
 		<p style="font-size: 25">Some of my past projects: </p>
-		<p>Player vs Player / Player vs Computer TicTacToe</p>
-		<img src="projects/TicTacToe1.png" alt="TicTacToeImage1">
-		<img src="projects/TicTacToe3.png" alt="TicTacToeImage3">
-		<img src="projects/TicTacToe2.png" alt="TicTacToeImage2">
+		<a href="https://github.com/adamw24/MoonTracker" target="_blank">Moon Tracker Web Application (w/ Kavel Rao, Alek Metzelaar)
+			<br/>
+			<img style="width: 47%; max-width: 876px" src="projects/MoonTrackerForm.png" alt="MoonTrackerFormImage">
+			<img style="width: 47%; max-width: 757px"src="projects/MoonTrackerResults.png" alt="MoonTrackerResultsImage">
+		</a>
 		<br/><br>
-		<p>Recursively Drawing a Binary Tree</p>
-		<img style="width: 100%; max-width: 1373px"src="projects/BinaryTree.png" alt="BinaryTreeImage">
-		
-		
-		
+
+		<a href="https://github.com/adamw24/TextExcel" target="_blank">TextExcel Spreadsheet
+			<br/>
+			<img style="width: 100%; max-width: 765px" src="projects/TextExcel.png" alt="TextExcelImage">
+		</a>
+		<br/><br>
+
+		<a href="https://github.com/adamw24/TicTacToe" target="_blank">Player vs Player / Player vs Computer TicTacToe
+			<br/>
+			<img style="width: 100%; max-width: 752px" src="projects/TicTacToe1.png" alt="TicTacToeImage1">
+			<img src="projects/TicTacToe3.png" alt="TicTacToeImage3">
+			<img src="projects/TicTacToe2.png" alt="TicTacToeImage2">
+		</a>
+		<br/><br>
+
+		<a href="https://github.com/adamw24/DrawBinaryTree" target="_blank">Recursively Drawing a Binary Tree
+			<br/>
+			<img style="width: 100%; max-width: 1373px"src="projects/BinaryTree.png" alt="BinaryTreeImage">
+		</a>
 	</div>
 	</body>
 </html>
