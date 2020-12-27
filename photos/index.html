@@ -1,171 +1,67 @@
 <html>
     <header>
-		<title>Adam's Photos 📸</title>
-		<style>
-			.group{
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-			   "Helvetica Neue", sans-serif;
-			  line-height: 1.5;
-			  overflow: hidden;
-			  word-wrap: break-word;
-			  user-select: none;
-			  padding: 10px;
-			  border-radius: 20px;
-			  border:  2.5px solid black;
-			  margin: 5%;
-      }
-			a{
-				text-decoration: none;
-			}
-			a:hover{
-				color: red;
-			}
-      .flex-container{
-        display: flex;         
-      }
-			p, button{
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-			   "Helvetica Neue", sans-serif;
-				font-size: 25px;
-        background-color: transparent;
-        border-radius: 20px;
-			}
-			* {
-        box-sizing: border-box;
-      }
-
-.content {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
-
-/* Create four equal columns that sits next to each other */
-.portraitcolumn {
-  -ms-flex: 100%; /* IE10 */
-  flex: 100%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.animalcolumn {
-  -ms-flex: 100%; /* IE10 */
-  flex: 100%;
-  max-width: 33%;
-  padding: 0 4px;
-}
-
-
-img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-  border-radius: 20px;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .portraitcolumn, .animalcolumn {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .portraitcolumn, .animalcolumn {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-.collapsible {
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  text-align: left;
-}
-
-.active, .collapsible:hover {
-  background-color: #b0c2cf;
-}
-
-.collapsible:after {
-  content: '\002B';
-  font-weight: bold;
-  float: right;
-  font-size: 25px;
-
-}
-
-.active:after {
-  content: "\2212";
-  font-size: 25px;
-}
-  </style>
+      <link rel="stylesheet" href="styles.css">
+		  <title>Adam's Photos 📸</title>
+		  <style>		
+      </style>
     </header>
+
     <body style="background-color: #D9EEFC">
+
 		<div class = "group">
             <p>Some of my photos! 📸</p>
 			<a href="../">back to homepage</a>
         </div>
 			
 		<div class="group">
-		  <button class="collapsible">Portraits 👥</button>
-      <div class="content">
+        <button class="collapsible">Portraits 👥</button>
+        <div class="content">
             <div class="portraitcolumn">
-                    <img src="portraits\MelchiWang2.jpg" alt="Melchi Wang Portrait">
-                    <img src="portraits\JonahQuist1.jpg" alt="Jonah Quist Portrait">
-                    <img src="portraits\ClaireJung2.jpg" alt="Claire Jung Portrait">
+                <img src="portraits\MelchiWang2.jpg" alt="Melchi Wang Portrait">
+                <img src="portraits\JonahQuist1.jpg" alt="Jonah Quist Portrait">
+                <img src="portraits\ClaireJung2.jpg" alt="Claire Jung Portrait">
             </div>
             <div class="portraitcolumn">
-					          <img src="portraits\NikaWoo2.jpg" alt="Nika Woo Portrait"> 
-                    <img src="portraits\AnneHashi1.jpg" alt="Anne Hashizume Portrait">
-                    <img src="portraits\NikaWoo1.jpg" alt="Nika Woo Portrait 2">               
-                    <img src="portraits\VickieWang1.jpg" alt="Vickie Wang Portrait">
-	          </div>
+                <img src="portraits\NikaWoo2.jpg" alt="Nika Woo Portrait"> 
+                <img src="portraits\AnneHashi1.jpg" alt="Anne Hashizume Portrait">
+                <img src="portraits\NikaWoo1.jpg" alt="Nika Woo Portrait 2">               
+                <img src="portraits\VickieWang1.jpg" alt="Vickie Wang Portrait">
+            </div>
             <div class="portraitcolumn">
-					          <img src="portraits\RosieNEvelyn.jpg" alt="Rosie and Eveyln Portrait">
-                    <img src="portraits\KavelRao2.jpg" alt="Kavel Rao Portrait"> 
-                    <img src="portraits\JohnLee2.jpg" alt="John Lee Portrait">
-	          </div>
+                <img src="portraits\RosieNEvelyn.jpg" alt="Rosie and Eveyln Portrait">
+                <img src="portraits\KavelRao2.jpg" alt="Kavel Rao Portrait"> 
+                <img src="portraits\JohnLee2.jpg" alt="John Lee Portrait">
+            </div>
             <div class="portraitcolumn">
-                    <img src="portraits\RosieHuang1.jpg" alt="Rosie Huang Portrait">
-                    <img src="portraits\MelchiWang1.jpg" alt="Melchi Wang Portrait 2">
-                    <img src="portraits\NathanYan2.jpg" alt="Nathan Yan Portrait">   
-                    <img src="portraits\BothClaires.jpg" alt="Both Claires Portrait">
-	          </div>
+                <img src="portraits\RosieHuang1.jpg" alt="Rosie Huang Portrait">
+                <img src="portraits\MelchiWang1.jpg" alt="Melchi Wang Portrait 2">
+                <img src="portraits\NathanYan2.jpg" alt="Nathan Yan Portrait">   
+                <img src="portraits\BothClaires.jpg" alt="Both Claires Portrait">
+            </div>
         </div>
-		</div>
+	  </div>
 		
 		<div class="group">
-			<button class="collapsible">Animals 🐘</button>
-      <div class="content">
+        <button class="collapsible">Animals 🐘</button>
+        <div class="content">
             <div class="animalcolumn">
-                    <img src="animals\Chipmunk.jpg" alt="Melchi Wang Portrait">
-                    <img src="animals\Hawk.jpg" alt="Jonah Quist Portrait">
-                    <img src="animals\bee.jpg" alt="Claire Jung Portrait">
-                    <img src="animals\Seagull.jpg" alt="John Lee Portrait">
-                    
+                <img src="animals\Chipmunk.jpg" alt="Chipmunk Photo">
+                <img src="animals\Hawk.jpg" alt="Hawk Photo">
+                <img src="animals\Bee.jpg" alt="Bee Photo">
+                <img src="animals\Seagull.jpg" alt="Seagull Photo">
             </div>
             <div class="animalcolumn">
-					          <img src="animals\Bunny.jpg" alt="Nika Woo Portrait"> 
-                    <img src="animals\Bison5.jpg" alt="Nika Woo Portrait">
-                    <img src="animals\Bear.jpg" alt="Claire Jung">
-                    <img src="animals\Dog.jpg" alt="Rosie and Eveyln Portrait">
-	          </div>
+                <img src="animals\Bunny.jpg" alt="Bunny Photo"> 
+                <img src="animals\Bison5.jpg" alt="Bison Photo">
+                <img src="animals\Bear.jpg" alt="Bear Photo">
+                <img src="animals\Dog.jpg" alt="Dog Photo">
+            </div>
             <div class="animalcolumn">
-					          <img src="animals\Snake.jpg" alt="John Lee Portrait">
-                    <img src="animals\PolarBear.jpg" alt="Claire Jung Portrait">
-                    <img src="animals\Geese3.jpg" alt="John Lee Portrait">
-                    <img src="animals\Goat.jpg" alt="John Lee Portrait">
-	          </div>
+                <img src="animals\Snake.jpg" alt="Snake Photo">
+                <img src="animals\PolarBear.jpg" alt="Polar Bear Photo">
+                <img src="animals\Geese3.jpg" alt="Geese Photo">
+                <img src="animals\Goat.jpg" alt="Goat Photo">
+            </div>
         </div>
     </div>
 
