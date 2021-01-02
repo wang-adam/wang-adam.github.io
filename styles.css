@@ -12,7 +12,7 @@ div{
     margin: 5%;
 }
 
-img{
+img, video{
     border-radius: 20px;
     padding: 10px;
 }
