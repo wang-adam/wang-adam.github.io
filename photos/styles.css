@@ -2,13 +2,16 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", sans-serif;
     line-height: 1.5;
+    font-size: 1.5rem;
     overflow: hidden;
     word-wrap: break-word;
     user-select: none;
     padding: 10px;
     border-radius: 20px;
     border:  2.5px solid black;
-    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
 }
 
 a{

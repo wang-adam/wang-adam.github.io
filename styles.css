@@ -1,7 +1,7 @@
-div{
+.group{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     line-height: 1.5;
     overflow: hidden;
     word-wrap: break-word;
@@ -9,7 +9,9 @@ div{
     padding: 20px;
     border-radius: 20px;
     border:  2.5px solid black;
-    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%
 }
 
 img, video{
@@ -23,4 +25,13 @@ a{
 
 a:hover{
     color: red;
+}
+
+.space::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -20px; 
+  height: 15px; 
+  visibility: hidden; 
+  pointer-events: none;
 }
