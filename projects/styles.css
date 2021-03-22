@@ -16,8 +16,9 @@
 
 img, video{
     border-radius: 20px;
-    padding: 10px;
+    margin:20px;
 }
+
 
 a{
     text-decoration: none;
