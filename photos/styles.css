@@ -8,10 +8,14 @@
     user-select: none;
     padding: 10px;
     border-radius: 20px;
-    border:  2.5px solid black;
+    border: 2.5px solid black;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 3%;
+}
+.inside{
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
 a{
