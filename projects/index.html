@@ -8,19 +8,19 @@
 			grid-gap: 10px;
 			padding: 10px;
 		}
-		
+
 		.grid-item {
 			border-radius: 20px;
 			border: 1.7px solid black;
 			padding: 10px;
 			text-align: center;
 		}
-		
+
 		.item1 {
 			grid-column: 1;
 			grid-row: 1;
 		}
-		
+
 		.item2 {
 			grid-column: 2;
 			grid-row: 1;
@@ -30,20 +30,22 @@
 			grid-column: 1;
 			grid-row: 2;
 		}
-		
+
 		.item4 {
 			grid-column: 2;
 			grid-row: 2;
 		}
-		
+
 		.item5 {
 			grid-column: 1 / span 2;
 			grid-row: 3;
 		}
+
 		.item6 {
 			grid-column: 1 / span 2;
 			grid-row: 4;
 		}
+
 		.center {
 			display: block;
 			margin-left: auto;
@@ -53,7 +55,8 @@
 </header>
 
 <body style="background-color: #ccf6c8">
-	<div id="navbar" style="margin-top:2%; margin-bottom: 0%; padding-top:0%; padding-bottom:0%; line-height:0.9" class="group">
+	<div id="navbar" style="margin-top:2%; margin-bottom: 0%; padding-top:0%; padding-bottom:0%; line-height:0.9"
+		class="group">
 		<p><span style="font-size:25px">Adam Wang: </span>
 			<a href="../"> about </a>
 			<span style="font-size: 25">·</span>
@@ -64,71 +67,101 @@
 	</div>
 	<div class="space" id="projects">
 		<div class="group" style="margin-top:1%;">
-			<p style="font-size: 30">Some of my past projects! 💻 </p>
+			<p style="font-size: 30">Some of my past projects! 💻</p>
 			<div class="grid-container">
 				<div class="grid-item item1">
-					<a href="https://github.com/adamw24/BouncingCircles" target="_blank">Bouncing Circles Screensaver </a>
-					<p class="text">Circles merge and change color and speed on collision. They bounce when their centers reach the edge of the screen.</p>
-					<video class="center" style="width: 90%; max-width: 800px; " loop autoplay muted><source src="NewBouncingCircles.mp4" type="video/mp4" alt="BouncingCirclesVideo" >Video Not Supported</video> 
-					
+					<a href="https://github.com/adamw24/BouncingCircles" target="_blank">Bouncing Circles Screensaver
+					</a>
+					<p class="text">Circle collisions form a new circle that follows the Law of Conservation of Momentum
+						in physics.</p>
+					<video class="center" style="width: 90%; max-width: 800px; " loop autoplay muted>
+						<source src="NewBouncingCircles.mp4" type="video/mp4" alt="BouncingCirclesVideo">Video Not
+						Supported
+					</video>
+
 				</div>
 				<div class="grid-item item2">
-					<a href="https://github.com/adamw24/DrawBinaryTree" target="_blank"> Recursive Binary Tree Visualization </a>
-						<p class="text">Accepts input for number of levels and angle between each branch. Interesting how placement of the draw statement inside the recursion affects the visualization.</p>
-						<video class="center" style="width: 90%; max-width: 800px; " loop autoplay muted><source src="drawBinaryTree.mp4" type="video/mp4" alt="BinaryTree" >Video Not Supported</video> 
+					<a href="https://github.com/adamw24/DrawBinaryTree" target="_blank"> Recursive Binary Tree
+						Visualization </a>
+					<p class="text">Accepts input for number of levels and angle between each branch. Interesting how
+						placement of the draw statement inside the recursion affects the visualization.</p>
+					<video class="center" style="width: 90%; max-width: 800px; " loop autoplay muted>
+						<source src="drawBinaryTree.mp4" type="video/mp4" alt="BinaryTree">Video Not Supported
+					</video>
 				</div>
 				<div class="grid-item item3">
-					<a href="https://github.com/adamw24/FractalExploration" target="_blank">Koch Snowflake Visualization</a>
-					<p class="text">Shows a few iterations of the Konch Snowflake. After infinite iterations, the perimeter becomes infinite but the area remains finite.</p>
-					<video class="center" style="width: 90%; max-width: 800px;" loop autoplay muted><source src="KochSnowflake.mp4" type="video/mp4" alt="KochSnowflakeVideo" >Video Not Supported</video> 
-					
+					<a href="https://github.com/adamw24/FractalExploration" target="_blank">Koch Snowflake
+						Visualization</a>
+					<p class="text">Shows a few iterations of the Konch Snowflake. After infinite iterations, the
+						perimeter becomes infinite but the area remains finite.</p>
+					<video class="center" style="width: 90%; max-width: 800px;" loop autoplay muted>
+						<source src="KochSnowflake.mp4" type="video/mp4" alt="KochSnowflakeVideo">Video Not Supported
+					</video>
+
 				</div>
 				<div class="grid-item item4">
-					<a href="https://github.com/adamw24/RandomvsNotQuiteRandom" target="_blank">Random vs Seemingly Random Points </a>
-					<p class="text">Explores the concept of truly random points versus points that seem random but are not.</p>
-					<video class="center" style="width: 90%; max-width: 800px; " loop autoplay muted><source src="RandomOrNotSo.mp4" type="video/mp4" alt="RandomVsNotRandomPoints">Video Not Supported</video> 
-					
+					<a href="https://github.com/adamw24/RandomvsNotQuiteRandom" target="_blank">Random vs Seemingly
+						Random Points </a>
+					<p class="text">Explores the concept of truly random points versus points that seem random but are
+						not.</p>
+					<video class="center" style="width: 90%; max-width: 800px; " loop autoplay muted>
+						<source src="RandomOrNotSo.mp4" type="video/mp4" alt="RandomVsNotRandomPoints">Video Not
+						Supported
+					</video>
+
 				</div>
 				<div class="grid-item item5">
-					<a href="https://github.com/adamw24/Pong" target="_blank">Pong Arcade Game
-						<br/>
-						<video class="center" style="width: 45%; max-width: 800px;" loop autoplay muted><source src="Pong.mp4" type="video/mp4" alt="PongVideo" >Video Not Supported</video> 
-					</a>
+					<a href="https://github.com/adamw24/Pong" target="_blank">Pong Arcade Game </a>
+					<p class="text">Classic player vs. computer Pong game. The computer (right side) only moves when the
+						ball is on their side, giving the player a slight advantage when the ball speeds up.</p>
+					<video class="center" style="width: 45%; max-width: 800px;" loop autoplay muted>
+						<source src="Pong.mp4" type="video/mp4" alt="PongVideo">Video Not Supported
+					</video>
+
 				</div>
 				<div class="grid-item item6">
-					<a href="https://github.com/adamw24/MoonTracker" target="_blank">Moon Tracker Web Application (w/ Kavel Rao, Alek Metzelaar)
-						<br/>
+					<a href="https://github.com/adamw24/MoonTracker" target="_blank">Moon Tracker Web Application (w/
+						Kavel Rao, Alek Metzelaar)
+						<br />
 						<div class="center">
-							<img style="width: 40%; max-width: 876px" src="MoonTrackerForm.png" alt="MoonTrackerFormImage">
-							<img style="width: 45%; max-width: 757px"src="MoonTrackerResults.png" alt="MoonTrackerResultsImage">
-						</div>	
-					</a>
-				</div>
-				<div class="grid-item">
-					<a href="https://github.com/adamw24/nQueens" target="_blank"> nQueens Problem
-						<br/>
-						<img style="width: 90%; max-width: 900px;" class="center" src="nQueens.jpg" alt="nQueensImage">
-					</a>
-				</div>
-					
-				<div class="grid-item">
-					<a href="https://github.com/adamw24/TicTacToe" target="_blank">Player vs Player / Player vs Computer TicTacToe
-						<br/>
-						<img style="width: 90%; max-width: 752px;" class="center" src="TicTacToe1.png" alt="TicTacToeImage1">
-						<div class="center">
-							<img style="width: 40%; max-width:180px" src="TicTacToe3.png" alt="TicTacToeImage3">
-							<img style="width: 40%; max-width:180px" src="TicTacToe2.png" alt="TicTacToeImage2">
+							<img style="width: 40%; max-width: 876px" src="MoonTrackerForm.png"
+								alt="MoonTrackerFormImage">
+							<img style="width: 45%; max-width: 757px" src="MoonTrackerResults.png"
+								alt="MoonTrackerResultsImage">
 						</div>
 					</a>
 				</div>
 				<div class="grid-item">
-					<a href="https://github.com/adamw24/TextExcel" target="_blank">TextExcel Spreadsheet
-						<br/>
-						<img style="width: 90%; max-width: 765px;" class="center" src="TextExcel.png" alt="TextExcelImage">
+					<a href="https://github.com/adamw24/nQueens" target="_blank"> nQueens Problem </a>
+					<p class="text">Recursively solves the classic nQueens problem: given a n-by-n chess board, place n
+						queens such that no queens attack each other.</p>
+					<img style="width: 90%; max-width: 900px;" class="center" src="nQueens.jpg" alt="nQueensImage">
+
+				</div>
+
+				<div class="grid-item">
+					<a href="https://github.com/adamw24/TicTacToe" target="_blank">Player vs Player / Player vs Computer
+						TicTacToe </a>
+					<p class="text">The computer has a "dummy" difficulty that selects a random square and a "smart"
+						difficulty that plays with optimal strategy. Was my final project for AP Computer Science in
+						highschool.</p>
+					<img style="width: 90%; max-width: 752px;" class="center" src="TicTacToe1.png"
+						alt="TicTacToeImage1">
+					<div class="center">
+						<img style="width: 40%; max-width:180px" src="TicTacToe3.png" alt="TicTacToeImage3">
+						<img style="width: 40%; max-width:180px" src="TicTacToe2.png" alt="TicTacToeImage2">
+					</div>
 					</a>
 				</div>
-				
-				
+				<div class="grid-item">
+					<a href="https://github.com/adamw24/TextExcel" target="_blank">TextExcel Spreadsheet
+						<br />
+						<img style="width: 90%; max-width: 765px;" class="center" src="TextExcel.png"
+							alt="TextExcelImage">
+					</a>
+				</div>
+
+
 			</div>
 		</div>
 	</div>
