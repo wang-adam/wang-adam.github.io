@@ -36,3 +36,7 @@ a:hover{
   visibility: hidden; 
   pointer-events: none;
 }
+
+.text{
+    font-size: 1.2rem;
+}
