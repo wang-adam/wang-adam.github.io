@@ -27,23 +27,23 @@
 		}
 
 		.item3 {
+			grid-column: 3;
+			grid-row: 1;
+		}
+
+		.item4 {
 			grid-column: 1;
 			grid-row: 2;
 		}
 
-		.item4 {
+		.item5 {
 			grid-column: 2;
 			grid-row: 2;
 		}
 
-		.item5 {
-			grid-column: 1 / span 2;
-			grid-row: 3;
-		}
-
 		.item6 {
-			grid-column: 1 / span 2;
-			grid-row: 4;
+			grid-column: 3;
+			grid-row: 3;
 		}
 
 		.center {
@@ -70,16 +70,17 @@
 			<p style="font-size: 30">Some of my past projects! 💻</p>
 			<div class="grid-container">
 				<div class="grid-item item1">
-					<a href="https://github.com/adamw24/BouncingCircles" target="_blank">Bouncing Circles Screensaver
-					</a>
-					<p class="text">Circle collisions form a new circle that follows the Law of Conservation of Momentum
-						in physics.</p>
-					<video class="center" style="width: 90%; max-width: 800px; " loop autoplay muted>
-						<source src="NewBouncingCircles.mp4" type="video/mp4" alt="BouncingCirclesVideo">Video Not
-						Supported
+					<a href="https://github.com/adamw24/FractalExploration" target="_blank">Koch Snowflake
+						Visualization</a>
+					<p class="text">Shows a few iterations of the <a
+							href="https://en.wikipedia.org/wiki/Koch_snowflake#:~:text=The%20Koch%20snowflake%20(also%20known,fractals%20to%20have%20been%20described."
+							target="_blank">Koch Snowflake</a>. As the number of iterations reach infinity, the
+						perimeter approaches infinite but the area remains finite.</p>
+					<video class="center" style="width: 90%; max-width: 800px;" loop autoplay muted>
+						<source src="KochSnowflake.mp4" type="video/mp4" alt="KochSnowflakeVideo">Video Not Supported
 					</video>
-
 				</div>
+
 				<div class="grid-item item2">
 					<a href="https://github.com/adamw24/DrawBinaryTree" target="_blank"> Recursive Binary Tree
 						Visualization </a>
@@ -89,18 +90,18 @@
 						<source src="drawBinaryTree.mp4" type="video/mp4" alt="BinaryTree">Video Not Supported
 					</video>
 				</div>
-				<div class="grid-item item3">
-					<a href="https://github.com/adamw24/FractalExploration" target="_blank">Koch Snowflake
-						Visualization</a>
-					<p class="text">Shows a few iterations of the <a
-							href="https://en.wikipedia.org/wiki/Koch_snowflake#:~:text=The%20Koch%20snowflake%20(also%20known,fractals%20to%20have%20been%20described."
-							target="_blank">Koch Snowflake</a>. As the number of iterations reach infinity, the
-						perimeter becomes infinite but the area remains finite.</p>
-					<video class="center" style="width: 90%; max-width: 800px;" loop autoplay muted>
-						<source src="KochSnowflake.mp4" type="video/mp4" alt="KochSnowflakeVideo">Video Not Supported
-					</video>
 
+				<div class="grid-item item3">
+					<a href="https://github.com/adamw24/BouncingCircles" target="_blank">Bouncing Circles Screensaver
+					</a>
+					<p class="text">Circle collisions form a new circle that follows the Law of Conservation of Momentum
+						in physics.</p>
+					<video class="center" style="width: 90%; max-width: 800px; " loop autoplay muted>
+						<source src="NewBouncingCircles.mp4" type="video/mp4" alt="BouncingCirclesVideo">Video Not
+						Supported
+					</video>
 				</div>
+
 				<div class="grid-item item4">
 					<a href="https://github.com/adamw24/RandomvsNotQuiteRandom" target="_blank">Random vs Seemingly
 						Random Points </a>
@@ -112,30 +113,30 @@
 						<source src="RandomOrNotSo.mp4" type="video/mp4" alt="RandomVsNotRandomPoints">Video Not
 						Supported
 					</video>
-
 				</div>
+
 				<div class="grid-item item5">
 					<a href="https://github.com/adamw24/Pong" target="_blank">Pong Arcade Game </a>
 					<p class="text">Classic player vs. computer Pong game. The computer (right side) only moves when the
 						ball is on their side, giving the player a slight advantage when the ball speeds up.</p>
-					<video class="center" style="width: 45%; max-width: 800px;" loop autoplay muted>
+					<video class="center" style="width: 90%; max-width: 800px;" loop autoplay muted>
 						<source src="Pong.mp4" type="video/mp4" alt="PongVideo">Video Not Supported
 					</video>
-
 				</div>
+
 				<div class="grid-item item6">
 					<a href="https://github.com/adamw24/MoonTracker" target="_blank">Moon Tracker Web Application (w/
 						Kavel Rao, Alek Metzelaar)</a>
 					<p class="text">Gives the ideal spot to stand so that the moon appears behind a target object using
 						input data and the moon cycle. My final project for CSE 143 and my first web app.
 					</p>
-					<div class="center">
-						<img style="width: 40%; max-width: 876px" src="MoonTrackerForm.png" alt="MoonTrackerFormImage">
-						<img style="width: 45%; max-width: 757px" src="MoonTrackerResults.png"
-							alt="MoonTrackerResultsImage">
-					</div>
+
+					<img style="width: 90%; max-width: 876px" src="MoonTrackerForm.png" alt="MoonTrackerFormImage">
+					<img style="width: 90%; max-width: 757px" src="MoonTrackerResults.png"
+						alt="MoonTrackerResultsImage">
 
 				</div>
+
 				<div class="grid-item">
 					<a href="https://github.com/adamw24/nQueens" target="_blank"> nQueens Problem </a>
 					<p class="text">Recursively solves the classic nQueens problem: given a n-by-n chess board, place n
@@ -152,10 +153,9 @@
 					<img style="width: 90%; max-width: 752px;" class="center" src="TicTacToe1.png"
 						alt="TicTacToeImage1">
 					<div class="center">
-						<img style="width: 40%; max-width:180px" src="TicTacToe3.png" alt="TicTacToeImage3">
-						<img style="width: 40%; max-width:180px" src="TicTacToe2.png" alt="TicTacToeImage2">
+						<img style="width: 30%; max-width:180px" src="TicTacToe3.png" alt="TicTacToeImage3">
+						<img style="width: 30%; max-width:180px" src="TicTacToe2.png" alt="TicTacToeImage2">
 					</div>
-					</a>
 				</div>
 
 				<div class="grid-item">
@@ -164,9 +164,7 @@
 						find the sum and average of a group of cells. It also deals with overflow content. Was a project
 						for AP Computer Science.</p>
 					<img style="width: 90%; max-width: 765px;" class="center" src="TextExcel.png" alt="TextExcelImage">
-
 				</div>
-
 
 			</div>
 		</div>
