@@ -14,41 +14,43 @@
 
 <body>
 
-	<header id="header">
-		<div class="profile">
+	<nav>
+		<div>
 			<img src=".\newWebsiteAssets\pfpthumbnail.jpg" alt="thumbnail photo" style="margin: 20px; margin-bottom: 5px; max-width: 75%; opacity: 100%; border-radius: 30%;">
 			<p style="text-align: center;"><a href="index.html" class="a2">Adam Wang</a></p>
-		  </div>
+		</div>
 	
-		  <nav>
+		
 			<ul>
-			  <li><a href="#home" class="nav-link a2 scrollto"><span>Home</span></a></li>
-			  <li><a href="#about" class="nav-link a2 scrollto"><span>About</span></a></li>
-			  <li><a href="#resume" class="nav-link a2 scrollto"><span>Resume</span></a></li>
-			  <li><a href="#projects" class="nav-link a2 scrollto"><span>Projects</span></a></li>
-			  <li><a href="#photos" class="nav-link a2 scrollto"><span>Photos</span></a></li>
+			  <li><a href="#home" class=" current">Home</a></li>
+			  <li><a href="#about" class="">About</a></li>
+			  <li><a href="#resume" class="">Resume</a></li>
+			  <li><a href="#projects" class="">Projects</a></li>
+			  <li><a href="#photos" class="">Photos</a></li>
 			</ul>
 
-		  </nav>
+		
 		  <p style="text-align: center; margin-top: 100;"><a style="font-size: 12;" href="./oldWebsite/index.html" class="a2"> view old website</a></p>
 
-	</header>
-	   
-	<div id="home" class="bgimg bgimg-1"> 
-		<div class="caption">
-			Adam Wang
-			<div class="typewriter-text">Hello and welcome to my homepage :) </div>
-
+	</nav>
+	<section id="home">
+		<div class="bgimg bgimg-1"> 
+			<div class="caption">
+				Adam Wang
+				<div class="typewriter-text">Hello and welcome to my homepage :) </div>
+			</div>
 		</div>
-	</div>
-	<div id="about" style="color: #777;background-color:rgb(40, 40, 40); text-align:center; padding:50px 80px; text-align: justify;">
-		<p class="shiftright" style="text-align:center; font-size: 2rem;">About Me</p>
-		<p class="shiftright" style="color:whitesmoke"> Hello! My name is Adam Wang and I am from Bellevue, Washington. I am a sophomore Computer Science major at the
-			<a href="https://www.cs.washington.edu/" style="  font-size: 1.4rem;" target="_blank">Paul G. Allen School</a>
-			at the <a href="http://www.washington.edu/" style="  font-size: 1.4rem;" target="_blank">University of Washington</a>.
-			I mainly code in Java and Python, but have also been working on some web dev (like this website).
-			Besides programming, I enjoy listening to music, exploring the outdoors, playing chess, and taking photos. Below are small collections of some of my projects and photos. Enjoy!
-			<p class="shiftright" style="text-align:center; font-size: 2rem;">Quick Links</p>
+	</section>
+
+	<section id="about">
+		<div style="color: #777;background-color:rgb(40, 40, 40); text-align:center; padding:50px 80px; text-align: justify;">
+			<p class="shiftright" style="text-align:center; font-size: 2rem;">About Me</p>
+			<p class="shiftright" style="color:whitesmoke; font-size: 1.6rem;"> Hello! My name is Adam Wang and I am from Bellevue, Washington. I am a sophomore Computer Science major at the
+				<a href="https://www.cs.washington.edu/" style="  font-size: 1.4rem;" target="_blank">Paul G. Allen School</a>
+				at the <a href="http://www.washington.edu/" style="  font-size: 1.4rem;" target="_blank">University of Washington</a>.
+				I mainly code in Java and Python, but have also been working on some web programming (like this website).
+				Besides programming, I enjoy listening to music, exploring the outdoors, playing chess, and taking photos. Below are small collections of some of my projects and photos. Enjoy!
+				<p class="shiftright" style="text-align:center; font-size: 2rem;">Quick Links</p>
 				<p class="shiftright" style="text-align: center;">
 					<a ref="mailto:adamwang@uw.edu" href="mailto:adamwang@uw.edu">adamwang@uw.edu</a>
 					<span style="font-size: 25">·</span>
@@ -58,337 +60,347 @@
 					<span style="font-size: 25">·</span>
 					<a href="https://www.linkedin.com/in/adam-wang-4172711b8/" target="_blank">linkedin</a>
 				</p>
-				
-		</p>
-	</div>
+			</p>
+		</div>
+	</section>
+		
 	
-	<div id="resume" class="bgimg bgimg-4">
-		<iframe class="shiftright" style="margin-left: 22%; align-items: normal; width:60%; height:70%;" src=".\oldWebsite\AdamWangResume.pdf"></iframe>
-	</div>
-
-	<div id="projects" class="bgimg bgimg-2">
-		<div class="caption">
-			<span>Projects</span>
-		</div> 
-	</div>
-	<div style="color: #777;background-color:rgba(33, 87, 111, 255); text-align:center; padding:50px 80px;text-align: justify;">
-		<div class="grid-container shiftright">
-			<div class="grid-item item1">
-				<a href="https://github.com/adamw24/BMTron" target="_blank">BMTron Game </a>
-				<p class="text"> Two-player game where the goal is to make the opponent crash into the edge or a
-					previous crossed path. Modeled after a game I used to play
-					when when I was little.
-				</p>
-				<video poster = "loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\bmtron.mp4" type="video/mp4" alt="bmtronvideo">Video Not Supported </video>
-			</div>
-
-			<div class="grid-item item2">
-				<a href="https://github.com/adamw24/SierpinskiTriangle" target="_blank">Sierpinski's Triangle
-					Visualization</a>
-				<p class="text">Generates <a href="https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle"
-						target="_blank">Sierpinksi's Triangle </a>using <a
-						href="https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle#Chaos_game"
-						target="_blank">chaos
-						game</a>: with a
-					random point inside the triangle and a random corner, draw the midpoint. Repeat using the
-					midpoint.
-				</p>
-				<video poster = "loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\SierpinskiTriangle_Trim.mp4" type="video/mp4" alt="SierpinksiTriange">Video Not Supported </video>
-			</div>
-
-			<div class="grid-item item3">
-				<a href="https://github.com/adamw24/DrawBinaryTree" target="_blank"> Recursive Binary Tree
-					Visualization </a>
-				<p class="text">Accepts input for number of levels and angle between each branch. Interesting how
-					placement of the draw statement inside the recursion affects the visualization.</p>
-				<video poster = "loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\drawBinaryTree.mp4" type="video/mp4" alt="BinaryTree">Video Not Supported </video>
-			</div>
-
-			<div class="grid-item">
-				<a href="https://github.com/adamw24/BouncingCircles" target="_blank">Bouncing Circles Screensaver
-				</a>
-				<p class="text">Circle collisions form a new circle that follows the Law of Conservation of Momentum
-					in physics.</p>
-				<video poster = "loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\NewBouncingCircles.mp4" type="video/mp4" alt="BouncingCirclesVideo">Video Not Supported </video>
-			</div>
-
-			<div class="grid-item">
-				<a href="https://github.com/adamw24/MonteCarloSimulationStock" target="_blank"> Monte Carlo Simulation of S&P500 </a>
-				<p class="text">Uses the <a href="investopedia.com/terms/m/montecarlosimulation.asp#:~:text=A%20Monte%20Carlo%20simulation%20is,in%20prediction%20and%20forecasting%20models." target="_blank">
-					Monte Carlo Simulation </a> to generate projections of <a href="https://finance.yahoo.com/quote/SPY/" target="blank">S&P500</a> using the drift and a random factor. Data is parsed from an .csv file downloaded from Yahoo Finance.</p>
-				<img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\montecarlostocks" alt="MonteCarloStocksImage">
-			</div>
-
-			<div class="grid-item">
-				<a href="https://github.com/adamw24/RandomvsNotQuiteRandom" target="_blank">Random vs Seemingly
-					Random Points </a>
-				<p class="text">Explores the concept of truly random points versus points that seem random but are
-					not. Inspired by <span style="font-style: italic">How Not to Be Wrong: The Power of Mathematical
-						Thinking </span>by Jordan Ellenberg.
-				</p>
-				<video poster = "loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\RandomOrNotSo.mp4" type="video/mp4" alt="RandomVsNotRandomPoints">Video Not Supported	</video>
-			</div>
-
-			<div class="grid-item">
-				<a href="https://github.com/adamw24/BestDayToTradeStocks" target="_blank">Best Day of the Week to Trade Stocks</a>
-				<p class="text">Finds which day of the week is the best to buy and which day is the best to sell. Monday is generally the best day to buy, and depending on how much data is used, Wednesday or Thursday seem to be the best days to sell.
-				</p>
-				<img style="width: 90%; max-width: 876px" loading="lazy" src=".\oldWebsite\projects\BestDayOneYear.png" alt="BestDayOneYearImage">
-				<img style="width: 90%; max-width: 757px" loading="lazy" src=".\oldWebsite\projects\BestDayTwoYear.png" alt="BestDayTwoYearImage">
-			</div>
-
-			<div class="grid-item">
-				<a href="https://github.com/adamw24/MoonTracker" target="_blank">Moon Tracker Web Application </a>
-				<p class="text">Gives the ideal spot to stand so that the moon appears behind a target object using
-					input data and the moon cycle. My CSE 143 final project and first web app. Worked with Kavel Rao and Alek Metzelaar.
-				</p>
-				<img style="width: 90%; max-width: 876px" loading="lazy" src=".\oldWebsite\projects\MoonTrackerForm.png" alt="MoonTrackerFormImage">
-				<img style="width: 90%; max-width: 757px" loading="lazy" src=".\oldWebsite\projects\MoonTrackerResults.png" alt="MoonTrackerResultsImage">
-			</div>
-
-			<div class="grid-item">
-				<a href="https://github.com/adamw24/Simulating-e-" target="_blank"> Approximating <i>e</i> by Simulation </a>
-				<p class="text">Approximating <i>e</i> using two simulations: a simple version (Simulation 1), and a more complex version that uses antithesis variables to reduce data variance (Simulation 2). Based off 
-					<a href="https://www.jstor.org/stable/2685243" target="_blank">
-					"Estimating the Value of <i>e</i> by Simulation" </a> written by K. G. Russell. </p>
-				<img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\eApproximation.png" alt="eApproximationImage">
-				<img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\histogram.png" alt="HistogramImage">
-			</div>
-
-			<div class="grid-item">
-				<a href="https://github.com/adamw24/Pong" target="_blank">Pong Arcade Game </a>
-				<p class="text">Classic player vs. computer Pong game. The computer (right side) only moves when the
-					ball is on their side, giving the player a slight advantage when the ball speeds up.</p>
-				<video poster = "loading.gif" class="center" style="width: 90%; max-width: 800px;" loading="lazy" loop autoplay muted playsinline src=".\oldWebsite\projects\Pong.mp4" type="video/mp4" alt="PongVideo">Video Not Supported </video>
-			</div>
-
-
-			<div class="grid-item">
-				<a href="https://github.com/adamw24/FractalExploration" target="_blank">Koch Snowflake
-					Visualization</a>
-				<p class="text">Shows a few iterations of the <a
-						href="https://en.wikipedia.org/wiki/Koch_snowflake#:~:text=The%20Koch%20snowflake%20(also%20known,fractals%20to%20have%20been%20described."
-						target="_blank">Koch Snowflake</a>. It's interesting how as the number of iterations reach infinity, the
-					perimeter approaches infinite but the area remains finite.</p>
-				<video poster= "loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\KochSnowflake.mp4" type="video/mp4" alt="KochSnowflakeVideo">Video Not Supported </video>
-			</div>
-
-			<div class="grid-item">
-				<a href="https://github.com/adamw24/TicTacToe" target="_blank">Player vs Player / Player vs Computer
-					TicTacToe </a>
-				<p class="text">The computer has a "dummy" difficulty that selects a random square and a "smart"
-					difficulty that plays with optimal strategy. Was my final project for AP Computer Science in
-					highschool.</p>
-				<img style="width: 90%; max-width: 752px;" class="center" loading="lazy" src=".\oldWebsite\projects\TicTacToe1.png"
-					alt="TicTacToeImage1">
-				<div class="center">
-					<img style="width: 30%; max-width:180px" loading="lazy" src=".\oldWebsite\projects\TicTacToe3.png" alt="TicTacToeImage3">
-					<img style="width: 30%; max-width:180px" loading="lazy" src=".\oldWebsite\projects\TicTacToe2.png" alt="TicTacToeImage2">
-				</div>
-			</div>	
+	
+	<section id="resume">
+		<div class="bgimg bgimg-4">
+			<iframe class="shiftright" style="margin-left: 22%; align-items: normal; width:60%; height:70%;" src=".\oldWebsite\AdamWangResume.pdf"></iframe>
 		</div>
-		<div class="inside shiftright">
-			<button class="collapsible collapsible1" style=" text-align: center; border-radius: 15px; border: 1.7px solid whitesmoke;">Archived projects</button>
-			<div class="content">
-				<div class="grid-container">
-					<div class="grid-item item1">
-						<a href="https://github.com/adamw24/TextExcel" target="_blank">TextExcel Spreadsheet</a>
-						<p class="text">Functions as a basic Excel spreadsheet. It can perform arithmetic operations and
-							find the sum and average of a group of cells. It also deals with overflow content. Was a project
-							for AP Computer Science.</p>
-						<img style="width: 90%; max-width: 765px;" class="center" loading="lazy" src=".\oldWebsite\projects\TextExcel.png" alt="TextExcelImage">
+	</section>
+	
+	<section id="projects">
+		<div class="bgimg bgimg-2">
+			<div class="caption">
+				<span>Projects</span>
+			</div> 
+		</div>
+		<div style="color: #777;background-color:rgba(33, 87, 111, 255); text-align:center; padding:50px 80px;text-align: justify;">
+			<div class="grid-container shiftright">
+				<div class="grid-item item1">
+					<a href="https://github.com/adamw24/BMTron" target="_blank">BMTron Game </a>
+					<p class="text"> Two-player game where the goal is to make the opponent crash into the edge or a
+						previous crossed path. Modeled after a game I used to play
+						when when I was little.
+					</p>
+					<video poster = "./oldWebsite/projects/loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\bmtron.mp4" type="video/mp4" alt="bmtronvideo">Video Not Supported </video>
+				</div>
+	
+				<div class="grid-item item2">
+					<a href="https://github.com/adamw24/SierpinskiTriangle" target="_blank">Sierpinski's Triangle
+						Visualization</a>
+					<p class="text">Generates <a href="https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle"
+							target="_blank">Sierpinksi's Triangle </a>using <a
+							href="https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle#Chaos_game"
+							target="_blank">chaos
+							game</a>: with a
+						random point inside the triangle and a random corner, draw the midpoint. Repeat using the
+						midpoint.
+					</p>
+					<video poster = "./oldWebsite/projects/loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\SierpinskiTriangle_Trim.mp4" type="video/mp4" alt="SierpinksiTriange">Video Not Supported </video>
+				</div>
+	
+				<div class="grid-item item3">
+					<a href="https://github.com/adamw24/DrawBinaryTree" target="_blank"> Recursive Binary Tree
+						Visualization </a>
+					<p class="text">Accepts input for number of levels and angle between each branch. Interesting how
+						placement of the draw statement inside the recursion affects the visualization.</p>
+					<video poster = "./oldWebsite/projects/loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\drawBinaryTree.mp4" type="video/mp4" alt="BinaryTree">Video Not Supported </video>
+				</div>
+	
+				<div class="grid-item">
+					<a href="https://github.com/adamw24/BouncingCircles" target="_blank">Bouncing Circles Screensaver
+					</a>
+					<p class="text">Circle collisions form a new circle that follows the Law of Conservation of Momentum
+						in physics.</p>
+					<video poster = "./oldWebsite/projects/loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\NewBouncingCircles.mp4" type="video/mp4" alt="BouncingCirclesVideo">Video Not Supported </video>
+				</div>
+	
+				<div class="grid-item">
+					<a href="https://github.com/adamw24/MonteCarloSimulationStock" target="_blank"> Monte Carlo Simulation of S&P500 </a>
+					<p class="text">Uses the <a href="investopedia.com/terms/m/montecarlosimulation.asp#:~:text=A%20Monte%20Carlo%20simulation%20is,in%20prediction%20and%20forecasting%20models." target="_blank">
+						Monte Carlo Simulation </a> to generate projections of <a href="https://finance.yahoo.com/quote/SPY/" target="blank">S&P500</a> using the drift and a random factor. Data is parsed from an .csv file downloaded from Yahoo Finance.</p>
+					<img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\montecarlostocks" alt="MonteCarloStocksImage">
+				</div>
+	
+				<div class="grid-item">
+					<a href="https://github.com/adamw24/RandomvsNotQuiteRandom" target="_blank">Random vs Seemingly
+						Random Points </a>
+					<p class="text">Explores the concept of truly random points versus points that seem random but are
+						not. Inspired by <span style="font-style: italic">How Not to Be Wrong: The Power of Mathematical
+							Thinking </span>by Jordan Ellenberg.
+					</p>
+					<video poster = "./oldWebsite/projects/loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\RandomOrNotSo.mp4" type="video/mp4" alt="RandomVsNotRandomPoints">Video Not Supported	</video>
+				</div>
+	
+				<div class="grid-item">
+					<a href="https://github.com/adamw24/BestDayToTradeStocks" target="_blank">Best Day of the Week to Trade Stocks</a>
+					<p class="text">Finds which day of the week is the best to buy and which day is the best to sell. Monday is generally the best day to buy, and depending on how much data is used, Wednesday or Thursday seem to be the best days to sell.
+					</p>
+					<img style="width: 90%; max-width: 876px" loading="lazy" src=".\oldWebsite\projects\BestDayOneYear.png" alt="BestDayOneYearImage">
+					<img style="width: 90%; max-width: 757px" loading="lazy" src=".\oldWebsite\projects\BestDayTwoYear.png" alt="BestDayTwoYearImage">
+				</div>
+	
+				<div class="grid-item">
+					<a href="https://github.com/adamw24/MoonTracker" target="_blank">Moon Tracker Web Application </a>
+					<p class="text">Gives the ideal spot to stand so that the moon appears behind a target object using
+						input data and the moon cycle. My CSE 143 final project and first web app. Worked with Kavel Rao and Alek Metzelaar.
+					</p>
+					<img style="width: 90%; max-width: 876px" loading="lazy" src=".\oldWebsite\projects\MoonTrackerForm.png" alt="MoonTrackerFormImage">
+					<img style="width: 90%; max-width: 757px" loading="lazy" src=".\oldWebsite\projects\MoonTrackerResults.png" alt="MoonTrackerResultsImage">
+				</div>
+	
+				<div class="grid-item">
+					<a href="https://github.com/adamw24/Simulating-e-" target="_blank"> Approximating <i>e</i> by Simulation </a>
+					<p class="text">Approximating <i>e</i> using two simulations: a simple version (Simulation 1), and a more complex version that uses antithesis variables to reduce data variance (Simulation 2). Based off 
+						<a href="https://www.jstor.org/stable/2685243" target="_blank">
+						"Estimating the Value of <i>e</i> by Simulation" </a> written by K. G. Russell. </p>
+					<img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\eApproximation.png" alt="eApproximationImage">
+					<img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\histogram.png" alt="HistogramImage">
+				</div>
+	
+				<div class="grid-item">
+					<a href="https://github.com/adamw24/Pong" target="_blank">Pong Arcade Game </a>
+					<p class="text">Classic player vs. computer Pong game. The computer (right side) only moves when the
+						ball is on their side, giving the player a slight advantage when the ball speeds up.</p>
+					<video poster = "./oldWebsite/projects/loading.gif" class="center" style="width: 90%; max-width: 800px;" loading="lazy" loop autoplay muted playsinline src=".\oldWebsite\projects\Pong.mp4" type="video/mp4" alt="PongVideo">Video Not Supported </video>
+				</div>
+	
+	
+				<div class="grid-item">
+					<a href="https://github.com/adamw24/FractalExploration" target="_blank">Koch Snowflake
+						Visualization</a>
+					<p class="text">Shows a few iterations of the <a
+							href="https://en.wikipedia.org/wiki/Koch_snowflake#:~:text=The%20Koch%20snowflake%20(also%20known,fractals%20to%20have%20been%20described."
+							target="_blank">Koch Snowflake</a>. It's interesting how as the number of iterations reach infinity, the
+						perimeter approaches infinite but the area remains finite.</p>
+					<video poster= "./oldWebsite/projects/loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\KochSnowflake.mp4" type="video/mp4" alt="KochSnowflakeVideo">Video Not Supported </video>
+				</div>
+	
+				<div class="grid-item">
+					<a href="https://github.com/adamw24/TicTacToe" target="_blank">Player vs Player / Player vs Computer
+						TicTacToe </a>
+					<p class="text">The computer has a "dummy" difficulty that selects a random square and a "smart"
+						difficulty that plays with optimal strategy. Was my final project for AP Computer Science in
+						highschool.</p>
+					<img style="width: 90%; max-width: 752px;" class="center" loading="lazy" src=".\oldWebsite\projects\TicTacToe1.png"
+						alt="TicTacToeImage1">
+					<div class="center">
+						<img style="width: 30%; max-width:180px" loading="lazy" src=".\oldWebsite\projects\TicTacToe3.png" alt="TicTacToeImage3">
+						<img style="width: 30%; max-width:180px" loading="lazy" src=".\oldWebsite\projects\TicTacToe2.png" alt="TicTacToeImage2">
 					</div>
-					<div class="grid-item item2">
-						<a href="https://github.com/adamw24/nQueens" target="_blank"> nQueens Problem </a>
-						<p class="text">Recursively solves the classic nQueens problem: given a n-by-n chess board, place n
-							queens such that no queens attack each other.</p>
-						<img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\nQueens.jpg" alt="nQueensImage">
+				</div>	
+			</div>
+			<div class="inside shiftright">
+				<button class="collapsible collapsible1" style=" text-align: center; border-radius: 15px; border: 1.7px solid whitesmoke;">Archived projects</button>
+				<div class="content">
+					<div class="grid-container">
+						<div class="grid-item item1">
+							<a href="https://github.com/adamw24/TextExcel" target="_blank">TextExcel Spreadsheet</a>
+							<p class="text">Functions as a basic Excel spreadsheet. It can perform arithmetic operations and
+								find the sum and average of a group of cells. It also deals with overflow content. Was a project
+								for AP Computer Science.</p>
+							<img style="width: 90%; max-width: 765px;" class="center" loading="lazy" src=".\oldWebsite\projects\TextExcel.png" alt="TextExcelImage">
+						</div>
+						<div class="grid-item item2">
+							<a href="https://github.com/adamw24/nQueens" target="_blank"> nQueens Problem </a>
+							<p class="text">Recursively solves the classic nQueens problem: given a n-by-n chess board, place n
+								queens such that no queens attack each other.</p>
+							<img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\nQueens.jpg" alt="nQueensImage">
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div id="photos" class="bgimg bgimg-3">
-		<div class="caption">
-			<span>Photos</span>
-		</div> 
-	</div>
-	<div style="color: #777;background-color:rgb(60, 60, 60); text-align:center; padding:50px 80px;">
-		<div class="inside shiftright">
-			<button class="collapsible collapsible2">Portraits</button>
-			<div class="content">
-				<div class="fourcolumn">
-					<img src=".\oldWebsite\photos\portraits\IsaacFence.jpg" alt="Isaac Cody Fence Portrait">
-					<img src=".\oldWebsite\photos\portraits\HannahHat1.jpg" alt="Hannah Goodell Portrait 3">
-					<img src=".\oldWebsite\photos\portraits\IsaacGraffiti.jpg" alt="Isaac Cody Graffiti Portrait">
-
-					<img src=".\oldWebsite\photos\portraits\JonahQuist1.jpg" alt="Jonah Quist Portrait">
-					<!--<img src=".\oldWebsite\photos\portraits\HannahBookstore.jpg" alt="Hannah Goodell Bookstore Portrait"> -->
-					<img src=".\oldWebsite\photos\portraits\AnneHashi1.jpg" alt="Anne Hashizume Portrait">
-
-					<img src=".\oldWebsite\photos\portraits\JohnLee.jpg" alt="John Lee Portrait">
-					<!--<img src=".\oldWebsite\photos\portraits\ClaireJung2.jpg" alt="Claire Jung Portrait">-->
+	</section>
+	
+	<section id="photos">
+		<div class="bgimg bgimg-3">
+			<div class="caption">
+				<span>Photos</span>
+			</div> 
+		</div>
+		<div style="color: #777;background-color:rgb(60, 60, 60); text-align:center; padding:50px 80px;">
+			<div class="inside shiftright">
+				<button class="collapsible collapsible2">Portraits</button>
+				<div class="content">
+					<div class="fourcolumn">
+						<img src=".\oldWebsite\photos\portraits\IsaacFence.jpg" alt="Isaac Cody Fence Portrait">
+						<img src=".\oldWebsite\photos\portraits\HannahHat1.jpg" alt="Hannah Goodell Portrait 3">
+						<img src=".\oldWebsite\photos\portraits\IsaacGraffiti.jpg" alt="Isaac Cody Graffiti Portrait">
+	
+						<img src=".\oldWebsite\photos\portraits\JonahQuist1.jpg" alt="Jonah Quist Portrait">
+						<!--<img src=".\oldWebsite\photos\portraits\HannahBookstore.jpg" alt="Hannah Goodell Bookstore Portrait"> -->
+						<img src=".\oldWebsite\photos\portraits\AnneHashi1.jpg" alt="Anne Hashizume Portrait">
+	
+						<img src=".\oldWebsite\photos\portraits\JohnLee.jpg" alt="John Lee Portrait">
+						<!--<img src=".\oldWebsite\photos\portraits\ClaireJung2.jpg" alt="Claire Jung Portrait">-->
+					</div>
+					<div class="fourcolumn">
+						<img src=".\oldWebsite\photos\portraits\NikaWoo2.jpg" alt="Nika Woo Portrait">
+						<!--<img src=".\oldWebsite\photos\portraits\AnneHashi1.jpg" alt="Anne Hashizume Portrait">-->
+						<img src=".\oldWebsite\photos\portraits\melchiswing2.jpg" alt="Melchi Wang Swing Portrait">
+						<img src=".\oldWebsite\photos\portraits\hannahcherry.jpg" alt="Hannah Goodell Cherry Blossoms Portrait">
+						<img src=".\oldWebsite\photos\portraits\NikaWoo1.jpg" alt="Nika Woo Portrait 2">
+	
+						<img src=".\oldWebsite\photos\portraits\MelchiWang2.jpg" alt="Melchi Wang Portrait">
+	
+						<img src=".\oldWebsite\photos\portraits\AxelLi2.jpg" alt="Axel Li Portrait">
+	
+						<!-- <img src=".\oldWebsite\photos\portraits\AxelLi2.jpg" alt="Axel Li Portrait 2"> -->
+						<img src=".\oldWebsite\photos\portraits\KavelReflectionc.jpg" alt="Kavel Rao Glasses Reflection Portrait">
+						<!--<img src=".\oldWebsite\photos\portraits\VickieWang1.jpg" alt="Vickie Wang Portrait">-->
+						<!--<img src=".\oldWebsite\photos\portraits\Hannah5.jpg" alt="Jonah Quist Portrait">-->
+					</div>
+					<div class="fourcolumn">
+						<img src=".\oldWebsite\photos\portraits\Athena.jpg" alt="Athena Leh Portrait">
+						<img src=".\oldWebsite\photos\portraits\RosieNEvelyn.jpg" alt="Rosie and Eveyln Portrait">
+	
+						<img src=".\oldWebsite\photos\portraits\KavelRao2.jpg" alt="Kavel Rao Portrait">
+						<img src=".\oldWebsite\photos\portraits\Reenah1.jpg" alt="Reenah Gwak Portrait">
+	
+						<!-- <img src=".\oldWebsite\photos\portraits\Hannah11.jpg" alt="Hannah Goodell Portrait 4"> -->
+						<img src=".\oldWebsite\photos\portraits\Hannah0.jpg" alt="Hannah Goodell Portrait 5">
+	
+	
+						<img src=".\oldWebsite\photos\portraits\BrandonNNick.jpg" alt="Brandon and Nick Portrait">
+						<!--<img src=".\oldWebsite\photos\portraits\JohnLeeActionShot2.jpg" alt="John Lee Action Portrait 2">-->
+						<!--<img src=".\oldWebsite\photos\portraits\HannahHat2.jpg" alt="Nathan Yan Portrait">-->
+	
+					</div>
+					<div class="fourcolumn">
+						<img src=".\oldWebsite\photos\portraits\RosieAndCousin.jpg" alt="Rosie and Cousin Portrait">
+						<!--<img src=".\oldWebsite\photos\portraits\HannahHairflip.jpg" alt="Melchi Wang Portrait">-->
+						<img src=".\oldWebsite\photos\portraits\NathanYan2.jpg" alt="Nathan Yan Portrait">
+						<img src=".\oldWebsite\photos\portraits\Hannah6.jpg" alt="Hannah Goodell Portrait 1">
+						<img src=".\oldWebsite\photos\portraits\HannahReflection.jpg" alt="Hannah Goodell Portrait 6">
+						<img src=".\oldWebsite\photos\portraits\KavelCamera.jpg" alt="Kavel Camera Portrait">
+	
+						<img src=".\oldWebsite\photos\portraits\JohnLeeActionShotcc.jpg" alt="John Lee Action Portrait 1">
+						<img src=".\oldWebsite\photos\portraits\RosieHuang1.jpg" alt="Rosie Huang Portrait">
+	
+					</div>
 				</div>
-				<div class="fourcolumn">
-					<img src=".\oldWebsite\photos\portraits\NikaWoo2.jpg" alt="Nika Woo Portrait">
-					<!--<img src=".\oldWebsite\photos\portraits\AnneHashi1.jpg" alt="Anne Hashizume Portrait">-->
-					<img src=".\oldWebsite\photos\portraits\melchiswing2.jpg" alt="Melchi Wang Swing Portrait">
-					<img src=".\oldWebsite\photos\portraits\hannahcherry.jpg" alt="Hannah Goodell Cherry Blossoms Portrait">
-					<img src=".\oldWebsite\photos\portraits\NikaWoo1.jpg" alt="Nika Woo Portrait 2">
-
-					<img src=".\oldWebsite\photos\portraits\MelchiWang2.jpg" alt="Melchi Wang Portrait">
-
-					<img src=".\oldWebsite\photos\portraits\AxelLi2.jpg" alt="Axel Li Portrait">
-
-					<!-- <img src=".\oldWebsite\photos\portraits\AxelLi2.jpg" alt="Axel Li Portrait 2"> -->
-					<img src=".\oldWebsite\photos\portraits\KavelReflectionc.jpg" alt="Kavel Rao Glasses Reflection Portrait">
-					<!--<img src=".\oldWebsite\photos\portraits\VickieWang1.jpg" alt="Vickie Wang Portrait">-->
-					<!--<img src=".\oldWebsite\photos\portraits\Hannah5.jpg" alt="Jonah Quist Portrait">-->
+			</div>
+	
+			<div class="inside shiftright">
+				<button class="collapsible collapsible2">Animals</button>
+				<div class="content">
+					<div class="threecolumn">
+						<img src=".\oldWebsite\photos\animals\Chipmunk.jpg" alt="Chipmunk Photo">
+						<img src=".\oldWebsite\photos\animals\Hawk.jpg" alt="Hawk Photo">
+						<img src=".\oldWebsite\photos\animals\Deer.jpg" alt="Deer Photo">
+						<img src=".\oldWebsite\photos\animals\singingbird.jpg" alt="Singing Bird Photo">
+						<!-- <img src=".\oldWebsite\photos\animals\Seagull.jpg" alt="Seagull Photo"> -->
+						<img src=".\oldWebsite\photos\animals\Bunny.jpg" alt="Bunny Photo">
+					</div>
+					<div class="threecolumn">
+						<img src=".\oldWebsite\photos\animals\Bunny2.jpg" alt="Bunny Photo 2">
+						<img src=".\oldWebsite\photos\animals\Bison5.jpg" alt="Bison Photo">
+						<img src=".\oldWebsite\photos\animals\Starling.jpg" alt="Common Starling Photo">
+						<img src=".\oldWebsite\photos\animals\Dog.jpg" alt="Dog Photo">      
+						<img src=".\oldWebsite\photos\animals\Bee.jpg" alt="Bee Photo">
+					</div>
+					<div class="threecolumn">
+						<img src=".\oldWebsite\photos\animals\Snake.jpg" alt="Snake Photo">
+						<img src=".\oldWebsite\photos\animals\PolarBear.jpg" alt="Polar Bear Photo">
+						<img src=".\oldWebsite\photos\animals\Geese3.jpg" alt="Geese Photo">
+						<img src=".\oldWebsite\photos\animals\Goat.jpg" alt="Goat Photo">
+						<img src=".\oldWebsite\photos\animals\duck.jpg" alt="Duck Photo">
+					</div>
 				</div>
-				<div class="fourcolumn">
-					<img src=".\oldWebsite\photos\portraits\Athena.jpg" alt="Athena Leh Portrait">
-					<img src=".\oldWebsite\photos\portraits\RosieNEvelyn.jpg" alt="Rosie and Eveyln Portrait">
-
-					<img src=".\oldWebsite\photos\portraits\KavelRao2.jpg" alt="Kavel Rao Portrait">
-					<img src=".\oldWebsite\photos\portraits\Reenah1.jpg" alt="Reenah Gwak Portrait">
-
-					<!-- <img src=".\oldWebsite\photos\portraits\Hannah11.jpg" alt="Hannah Goodell Portrait 4"> -->
-					<img src=".\oldWebsite\photos\portraits\Hannah0.jpg" alt="Hannah Goodell Portrait 5">
-
-
-					<img src=".\oldWebsite\photos\portraits\BrandonNNick.jpg" alt="Brandon and Nick Portrait">
-					<!--<img src=".\oldWebsite\photos\portraits\JohnLeeActionShot2.jpg" alt="John Lee Action Portrait 2">-->
-					<!--<img src=".\oldWebsite\photos\portraits\HannahHat2.jpg" alt="Nathan Yan Portrait">-->
-
+			</div>
+	
+			<div class="inside shiftright">
+				<button class="collapsible collapsible2">Landscapes</button>
+				<div class="content">
+					<div class="threecolumn">
+						<img src=".\oldWebsite\photos\landscapes\RainierBaker.jpg" alt="Mt Rainier and Mt Baker">
+						<img src=".\oldWebsite\photos\landscapes\AntelopeCanyon.jpg" alt="Lower Antelope Canyon">
+						<img src=".\oldWebsite\photos\landscapes\Alta2.jpg" alt="View from Alta Peak 1">
+						<img src=".\oldWebsite\photos\landscapes\BurntTreeTrail.jpg" alt="Burnt Forest Trail 1">
+						<img src=".\oldWebsite\photos\landscapes\Alta.jpg" alt="">
+						<img src=".\oldWebsite\photos\landscapes\MountainsSunRays.jpg" alt="Mountain with Sunrays">
+						<img src=".\oldWebsite\photos\landscapes\Canyon.jpg" alt="Canyon">
+						<img src=".\oldWebsite\photos\landscapes\Board.jpg" alt="Boardwalk in Glacier NP">
+					</div>
+					<div class="threecolumn">
+						<img src=".\oldWebsite\photos\landscapes\CloudySunset.jpg" alt="Sunset with Low Clouds">
+						<img src=".\oldWebsite\photos\landscapes\HeatherMaple.jpg" alt="Viewpoint">
+						<img src=".\oldWebsite\photos\landscapes\HotSpring.jpg" alt="Grand Prismatic Spring">
+						<img src=".\oldWebsite\photos\landscapes\HeatherPhone.jpg" alt="Heather Maple Pass 2">
+						<img src=".\oldWebsite\photos\landscapes\Alta9.jpg" alt="Lila Lake 1">
+						<img src=".\oldWebsite\photos\landscapes\Burn.jpg" alt="Burnt Forest 2">
+						<img src=".\oldWebsite\photos\landscapes\Alta10.jpg" alt="Lila Lake 2">
+						<img src=".\oldWebsite\photos\landscapes\rain.jpg" alt="Canyon with Rainbow">
+					</div>
+					<div class="threecolumn">
+						<img src=".\oldWebsite\photos\landscapes\MountainBasin.jpg" alt="Mountins with more sun">
+						<img src=".\oldWebsite\photos\landscapes\Edited.jpg" alt="Mountains in Glacier NP">
+						<img src=".\oldWebsite\photos\landscapes\StHelensLake.jpg" alt="Lake near Mt. St. Helens">
+						<img src=".\oldWebsite\photos\landscapes\Hay.jpg" alt="Hay Landscape">
+						<img src=".\oldWebsite\photos\landscapes\Alta0.jpg" alt="View from Alta Peak 3">
+						<img src=".\oldWebsite\photos\landscapes\HeatherNew2.jpg" alt="Heather Maple Pass 3">
+						<img src=".\oldWebsite\photos\landscapes\Alta6.jpg" alt="Alta Mountain 1">
+						<img src=".\oldWebsite\photos\landscapes\DragonCloudSunset.jpg" alt="Sunset 2">
+						<!--<img src=".\oldWebsite\photos\landscapes\KerryPark.jpg" alt="Bunny Photo">
+											<img src=".\oldWebsite\photos\landscapes\Valley2.jpg" alt="Bunny Photo"> -->
+					</div>
 				</div>
-				<div class="fourcolumn">
-					<img src=".\oldWebsite\photos\portraits\RosieAndCousin.jpg" alt="Rosie and Cousin Portrait">
-					<!--<img src=".\oldWebsite\photos\portraits\HannahHairflip.jpg" alt="Melchi Wang Portrait">-->
-					<img src=".\oldWebsite\photos\portraits\NathanYan2.jpg" alt="Nathan Yan Portrait">
-					<img src=".\oldWebsite\photos\portraits\Hannah6.jpg" alt="Hannah Goodell Portrait 1">
-					<img src=".\oldWebsite\photos\portraits\HannahReflection.jpg" alt="Hannah Goodell Portrait 6">
-					<img src=".\oldWebsite\photos\portraits\KavelCamera.jpg" alt="Kavel Camera Portrait">
-
-					<img src=".\oldWebsite\photos\portraits\JohnLeeActionShotcc.jpg" alt="John Lee Action Portrait 1">
-					<img src=".\oldWebsite\photos\portraits\RosieHuang1.jpg" alt="Rosie Huang Portrait">
-
+			</div>
+	
+			<div class="inside shiftright">
+				<button class="collapsible collapsible2">City </button>
+				<div class="content">
+					<div class="threecolumn">
+						<img src=".\oldWebsite\photos\city\laburger.jpg" alt="PierBurger Santa Monica">
+						<img src=".\oldWebsite\photos\city\spaceneedlecopy.jpg" alt="Space Needle Golden Hour">
+						<img src=".\oldWebsite\photos\city\phillybuildingtops.jpg" alt="Phily Building Tops">
+						<img src=".\oldWebsite\photos\city\seattlemountains.jpg" alt="Seattle Mountains">
+						<img src=".\oldWebsite\photos\city\neonfish.jpg" alt="Pike Place 1">
+						<img src=".\oldWebsite\photos\city\seattlesunset.jpg" alt="Seattle Sunset">
+						<img src=".\oldWebsite\photos\city\orangepipes.jpg" alt="Gasworks Pipes">
+						<img src=".\oldWebsite\photos\city\franklinsquare.jpg" alt="Franklin Square">
+						<img src=".\oldWebsite\photos\city\mod.jpg" alt="Mods Pizza">
+						<img src=".\oldWebsite\photos\city\lowerfloorneon.jpg" alt="Pike Place 2">
+	
+						<!--<img src=".\oldWebsite\photos\city\hollywoodsign.jpg" alt="Hollywood Street">-->
+					</div>
+					<div class="threecolumn">
+						<img src=".\oldWebsite\photos\city\phillydt.jpg" alt="Philly Downtown 1">
+						<img src=".\oldWebsite\photos\city\seattlelink.jpg" alt="Seattle Link">
+						<img src=".\oldWebsite\photos\city\latrianglebuilding.jpg" alt="LA Triangle Building">
+						<img src=".\oldWebsite\photos\city\csbuildingvert.jpg" alt="UW CS Building">
+						<img src=".\oldWebsite\photos\city\seattlegumwall.jpg" alt="Seattle Gum Wall">
+						<img src=".\oldWebsite\photos\city\choppertoy.jpg" alt="Wooden Helicopter Toy">
+						<img src=".\oldWebsite\photos\city\phillystreet.jpg" alt="Philly Intersection">
+						<img src=".\oldWebsite\photos\city\bellevue.jpg" alt="Bellevue Downtown">
+						<img src=".\oldWebsite\photos\city\uwredtree.jpg" alt="UW Red Tree">
+						<img src=".\oldWebsite\photos\city\electricpole.jpg" alt="Electrical Pole">
+						<img src=".\oldWebsite\photos\city\longexposure.jpg" alt="Long Exposure">
+	
+					</div>
+					<div class="threecolumn">
+						<img src=".\oldWebsite\photos\city\phillycarrier.jpg" alt="Navy Carrier">
+						<img src=".\oldWebsite\photos\city\cosmopolitanhotel.jpg" alt="LA Cosmopolitan Hotel">
+						<img src=".\oldWebsite\photos\city\phillyferriswheel.jpg" alt="Philly Ferris Wheel">
+						<img src=".\oldWebsite\photos\city\phillymuseum1.jpg" alt="Philly Downtown 2">
+						<img src=".\oldWebsite\photos\city\fruit.jpg" alt="Pike Place Fruit Shop">
+						<img src=".\oldWebsite\photos\city\spaceneedle2copy.jpg" alt="Space Needle Underneath">
+						<img src=".\oldWebsite\photos\city\upenn.jpg" alt="UPenn Walkway">
+						<img src=".\oldWebsite\photos\city\upennmed.jpg" alt="UPenn Med Building">
+						<img src=".\oldWebsite\photos\city\nightbridge.jpg" alt="Philly Bridge Night">
+						<img src=".\oldWebsite\photos\city\neon.jpg" alt="LA Market">
+	
+					</div>
 				</div>
 			</div>
 		</div>
-
-		<div class="inside shiftright">
-			<button class="collapsible collapsible2">Animals</button>
-			<div class="content">
-				<div class="threecolumn">
-					<img src=".\oldWebsite\photos\animals\Chipmunk.jpg" alt="Chipmunk Photo">
-					<img src=".\oldWebsite\photos\animals\Hawk.jpg" alt="Hawk Photo">
-					<img src=".\oldWebsite\photos\animals\Deer.jpg" alt="Deer Photo">
-					<img src=".\oldWebsite\photos\animals\singingbird.jpg" alt="Singing Bird Photo">
-					<!-- <img src=".\oldWebsite\photos\animals\Seagull.jpg" alt="Seagull Photo"> -->
-					<img src=".\oldWebsite\photos\animals\Bunny.jpg" alt="Bunny Photo">
-				</div>
-				<div class="threecolumn">
-					<img src=".\oldWebsite\photos\animals\Bunny2.jpg" alt="Bunny Photo 2">
-					<img src=".\oldWebsite\photos\animals\Bison5.jpg" alt="Bison Photo">
-					<img src=".\oldWebsite\photos\animals\Starling.jpg" alt="Common Starling Photo">
-					<img src=".\oldWebsite\photos\animals\Dog.jpg" alt="Dog Photo">      
-					<img src=".\oldWebsite\photos\animals\Bee.jpg" alt="Bee Photo">
-				</div>
-				<div class="threecolumn">
-					<img src=".\oldWebsite\photos\animals\Snake.jpg" alt="Snake Photo">
-					<img src=".\oldWebsite\photos\animals\PolarBear.jpg" alt="Polar Bear Photo">
-					<img src=".\oldWebsite\photos\animals\Geese3.jpg" alt="Geese Photo">
-					<img src=".\oldWebsite\photos\animals\Goat.jpg" alt="Goat Photo">
-					<img src=".\oldWebsite\photos\animals\duck.jpg" alt="Duck Photo">
-				</div>
-			</div>
-		</div>
-
-		<div class="inside shiftright">
-			<button class="collapsible collapsible2">Landscapes</button>
-			<div class="content">
-				<div class="threecolumn">
-					<img src=".\oldWebsite\photos\landscapes\RainierBaker.jpg" alt="Mt Rainier and Mt Baker">
-					<img src=".\oldWebsite\photos\landscapes\AntelopeCanyon.jpg" alt="Lower Antelope Canyon">
-					<img src=".\oldWebsite\photos\landscapes\Alta2.jpg" alt="View from Alta Peak 1">
-					<img src=".\oldWebsite\photos\landscapes\BurntTreeTrail.jpg" alt="Burnt Forest Trail 1">
-					<img src=".\oldWebsite\photos\landscapes\Alta.jpg" alt="">
-					<img src=".\oldWebsite\photos\landscapes\MountainsSunRays.jpg" alt="Mountain with Sunrays">
-					<img src=".\oldWebsite\photos\landscapes\Canyon.jpg" alt="Canyon">
-					<img src=".\oldWebsite\photos\landscapes\Board.jpg" alt="Boardwalk in Glacier NP">
-				</div>
-				<div class="threecolumn">
-					<img src=".\oldWebsite\photos\landscapes\CloudySunset.jpg" alt="Sunset with Low Clouds">
-					<img src=".\oldWebsite\photos\landscapes\HeatherMaple.jpg" alt="Viewpoint">
-					<img src=".\oldWebsite\photos\landscapes\HotSpring.jpg" alt="Grand Prismatic Spring">
-					<img src=".\oldWebsite\photos\landscapes\HeatherPhone.jpg" alt="Heather Maple Pass 2">
-					<img src=".\oldWebsite\photos\landscapes\Alta9.jpg" alt="Lila Lake 1">
-					<img src=".\oldWebsite\photos\landscapes\Burn.jpg" alt="Burnt Forest 2">
-					<img src=".\oldWebsite\photos\landscapes\Alta10.jpg" alt="Lila Lake 2">
-					<img src=".\oldWebsite\photos\landscapes\rain.jpg" alt="Canyon with Rainbow">
-				</div>
-				<div class="threecolumn">
-					<img src=".\oldWebsite\photos\landscapes\MountainBasin.jpg" alt="Mountins with more sun">
-					<img src=".\oldWebsite\photos\landscapes\Edited.jpg" alt="Mountains in Glacier NP">
-					<img src=".\oldWebsite\photos\landscapes\StHelensLake.jpg" alt="Lake near Mt. St. Helens">
-					<img src=".\oldWebsite\photos\landscapes\Hay.jpg" alt="Hay Landscape">
-					<img src=".\oldWebsite\photos\landscapes\Alta0.jpg" alt="View from Alta Peak 3">
-					<img src=".\oldWebsite\photos\landscapes\HeatherNew2.jpg" alt="Heather Maple Pass 3">
-					<img src=".\oldWebsite\photos\landscapes\Alta6.jpg" alt="Alta Mountain 1">
-					<img src=".\oldWebsite\photos\landscapes\DragonCloudSunset.jpg" alt="Sunset 2">
-					<!--<img src=".\oldWebsite\photos\landscapes\KerryPark.jpg" alt="Bunny Photo">
-										<img src=".\oldWebsite\photos\landscapes\Valley2.jpg" alt="Bunny Photo"> -->
-				</div>
-			</div>
-		</div>
-
-		<div class="inside shiftright">
-			<button class="collapsible collapsible2">City </button>
-			<div class="content">
-				<div class="threecolumn">
-					<img src=".\oldWebsite\photos\city\laburger.jpg" alt="PierBurger Santa Monica">
-					<img src=".\oldWebsite\photos\city\spaceneedlecopy.jpg" alt="Space Needle Golden Hour">
-					<img src=".\oldWebsite\photos\city\phillybuildingtops.jpg" alt="Phily Building Tops">
-					<img src=".\oldWebsite\photos\city\seattlemountains.jpg" alt="Seattle Mountains">
-					<img src=".\oldWebsite\photos\city\neonfish.jpg" alt="Pike Place 1">
-					<img src=".\oldWebsite\photos\city\seattlesunset.jpg" alt="Seattle Sunset">
-					<img src=".\oldWebsite\photos\city\orangepipes.jpg" alt="Gasworks Pipes">
-					<img src=".\oldWebsite\photos\city\franklinsquare.jpg" alt="Franklin Square">
-					<img src=".\oldWebsite\photos\city\mod.jpg" alt="Mods Pizza">
-					<img src=".\oldWebsite\photos\city\lowerfloorneon.jpg" alt="Pike Place 2">
-
-					<!--<img src=".\oldWebsite\photos\city\hollywoodsign.jpg" alt="Hollywood Street">-->
-				</div>
-				<div class="threecolumn">
-					<img src=".\oldWebsite\photos\city\phillydt.jpg" alt="Philly Downtown 1">
-					<img src=".\oldWebsite\photos\city\seattlelink.jpg" alt="Seattle Link">
-					<img src=".\oldWebsite\photos\city\latrianglebuilding.jpg" alt="LA Triangle Building">
-					<img src=".\oldWebsite\photos\city\csbuildingvert.jpg" alt="UW CS Building">
-					<img src=".\oldWebsite\photos\city\seattlegumwall.jpg" alt="Seattle Gum Wall">
-					<img src=".\oldWebsite\photos\city\choppertoy.jpg" alt="Wooden Helicopter Toy">
-					<img src=".\oldWebsite\photos\city\phillystreet.jpg" alt="Philly Intersection">
-					<img src=".\oldWebsite\photos\city\bellevue.jpg" alt="Bellevue Downtown">
-					<img src=".\oldWebsite\photos\city\uwredtree.jpg" alt="UW Red Tree">
-					<img src=".\oldWebsite\photos\city\electricpole.jpg" alt="Electrical Pole">
-					<img src=".\oldWebsite\photos\city\longexposure.jpg" alt="Long Exposure">
-
-				</div>
-				<div class="threecolumn">
-					<img src=".\oldWebsite\photos\city\phillycarrier.jpg" alt="Navy Carrier">
-					<img src=".\oldWebsite\photos\city\cosmopolitanhotel.jpg" alt="LA Cosmopolitan Hotel">
-					<img src=".\oldWebsite\photos\city\phillyferriswheel.jpg" alt="Philly Ferris Wheel">
-					<img src=".\oldWebsite\photos\city\phillymuseum1.jpg" alt="Philly Downtown 2">
-					<img src=".\oldWebsite\photos\city\fruit.jpg" alt="Pike Place Fruit Shop">
-					<img src=".\oldWebsite\photos\city\spaceneedle2copy.jpg" alt="Space Needle Underneath">
-					<img src=".\oldWebsite\photos\city\upenn.jpg" alt="UPenn Walkway">
-					<img src=".\oldWebsite\photos\city\upennmed.jpg" alt="UPenn Med Building">
-					<img src=".\oldWebsite\photos\city\nightbridge.jpg" alt="Philly Bridge Night">
-					<img src=".\oldWebsite\photos\city\neon.jpg" alt="LA Market">
-
-				</div>
-			</div>
-		</div>
-	</div>
+	</section>
+	
 	
 
 	<script>
@@ -406,6 +418,36 @@
                 }
             });
         }
+
+		let mainNavLinks = document.querySelectorAll("nav ul li a");
+
+		// This should probably be throttled.
+		// Especially because it triggers during smooth scrolling.
+		// https://lodash.com/docs/4.17.10#throttle
+		// You could do like...
+		// window.addEventListener("scroll", () => {
+		//    _.throttle(doThatStuff, 100);
+		// });
+		// Only not doing it here to keep this Pen dependency-free.
+
+		window.addEventListener("scroll", event => {
+		let fromTop = window.scrollY;
+	
+
+		mainNavLinks.forEach(link => {
+			let section = document.querySelector(link.hash);
+
+			if (
+				section.offsetTop <= fromTop+300 && 
+				section.offsetTop -300 + section.offsetHeight> fromTop
+			){
+				link.classList.add("current");
+			} else {
+				link.classList.remove("current");
+			}
+		});
+		});
+
     </script>
 
 </body>

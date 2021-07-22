@@ -28,10 +28,6 @@ a:hover {
   color: red;
 }
 
-.a2 {
-  color: whitesmoke;
-}
-
 .space::before {
   display: block;
   content: " ";
@@ -225,7 +221,7 @@ button {
   margin-left: 200px;
 }
 
-#header {
+nav {
   position: fixed;
   top: 25%;
   left: 0;
@@ -237,9 +233,20 @@ button {
   z-index: 1000;
   opacity: 90%;
   border-radius: 20px;
+  text-align: center;
 }
-ul {
-  list-style-type: none;
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a.current {
+  color: whitesmoke;
+}
+
+nav ul li a {
+  color: rgb(103, 111, 202);
 }
 
 .typewriter-text {
