@@ -51,12 +51,12 @@ a:hover {
 }
 
 .bgimg-1 {
-  background-image: url(/newWebsiteAssets/ProfilePicture.jpg);
+  background-image: url("./newWebsiteAssets/ProfilePicture.jpg");
   min-height: 80%;
 }
 
 .bgimg-2 {
-  background-image: url(/newWebsiteAssets/SierpinskiTriangle_Trim_Moment.jpg);
+  background-image: url("/newWebsiteAssets/SierpinskiTriangle_Trim_Moment.jpg");
   min-height: 45%;
 }
 
