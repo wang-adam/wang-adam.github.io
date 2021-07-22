@@ -56,17 +56,17 @@ a:hover {
 }
 
 .bgimg-2 {
-  background-image: url("/newWebsiteAssets/SierpinskiTriangle_Trim_Moment.jpg");
+  background-image: url("./newWebsiteAssets/SierpinskiTriangle_Trim_Moment.jpg");
   min-height: 45%;
 }
 
 .bgimg-3 {
-  background-image: url("/newWebsiteAssets/camera.jpg");
+  background-image: url("./newWebsiteAssets/camera.jpg");
   min-height: 45%;
 }
 
 .bgimg-4 {
-  background-image: url("/newWebsiteAssets/0001.jpg");
+  background-image: url("./newWebsiteAssets/0001.jpg");
   min-height: 45%;
 }
 
