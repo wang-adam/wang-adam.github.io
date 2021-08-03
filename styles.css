@@ -101,7 +101,7 @@ a:hover {
 }
 
 .grid-item {
-  border-radius: 20px;
+  border-radius: 1vmax;
   border: 1.7px solid whitesmoke;
   padding: 3%;
   text-align: center;
@@ -136,7 +136,7 @@ video {
   margin-bottom: 4px;
   vertical-align: middle;
   width: 100%;
-  border-radius: 20px;
+  border-radius: 1vmax;
 }
 
 button {
@@ -163,7 +163,7 @@ button {
   text-align: left;
   vertical-align: center;
   color: whitesmoke;
-  border-radius: 15px;
+  border-radius: 1vmax;
   border: 1.7px solid whitesmoke;
   padding: 1vmax 1vmax;
   line-height: 1.2vmax;
@@ -269,7 +269,7 @@ nav {
   overflow-y: auto;
   z-index: 1000;
   opacity: 90%;
-  border-radius: 20px;
+  border-radius: 1vmax;
   text-align: center;
 }
 nav ul {
