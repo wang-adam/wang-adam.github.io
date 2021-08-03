@@ -65,11 +65,11 @@ a:hover {
   min-height: 100%;
 }
 
-@media only screen and (max-width: 4000px) {
+@media only screen and (max-width: 1000px) {
   .bgimg-1 {
     background-image: url("./newWebsiteAssets/ProfilePictureMobile.jpg");
     min-height: 100%;
-    background-size: contain;
+    background-size: cover;
   }
 }
 
