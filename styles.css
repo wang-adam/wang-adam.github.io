@@ -261,9 +261,9 @@ nav {
   top: 25%;
   left: 0;
   width: 9vmax;
-  min-width: 60px;
+  min-width: 70px;
   height: 30vmax;
-  min-height: 150px;
+  min-height: 200px;
   padding: 0 15px;
   background: rgba(0, 57, 95, 225);
   overflow-y: auto;
