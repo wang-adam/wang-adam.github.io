@@ -70,6 +70,7 @@ a:hover {
     background-image: url("./newWebsiteAssets/ProfilePictureMobile.jpg");
     min-height: 100%;
     background-size: cover;
+    background-color: rgb(40, 40, 40);
   }
 }
 
