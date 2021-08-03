@@ -10,28 +10,26 @@ body {
   height: 100%;
 }
 
-p {
+.title {
+  font-size: 1.6vmax;
+}
+
+.text {
+  margin-top: 1.2vmax;
+}
+
+p,
+a {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", sans-serif;
-  font-size: 1.4rem;
-  line-height: 1.5;
+  font-size: 1.2vmax;
   overflow: hidden;
   word-wrap: break-word;
   color: whitesmoke;
 }
 
-p a {
-  font-size: 1.4rem;
-}
-
 a {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", sans-serif;
   text-decoration: none;
-  font-size: 1.7rem;
-  line-height: 1.5;
-  overflow: hidden;
-  word-wrap: break-word;
   text-align: justify;
   color: rgb(103, 111, 202);
 }
@@ -85,7 +83,7 @@ a:hover {
   position: absolute;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", sans-serif;
-  font-size: 5rem;
+  font-size: 3vmax;
   overflow: hidden;
   word-wrap: break-word;
   top: 50%;
@@ -101,10 +99,10 @@ a:hover {
 .grid-item {
   border-radius: 20px;
   border: 1.7px solid whitesmoke;
-  padding: 20px;
+  padding: 3%;
   text-align: center;
   background-color: rgb(60, 60, 60);
-  margin: 10px;
+  margin: 1%;
 }
 
 .item1 {
@@ -140,8 +138,8 @@ video {
 button {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", sans-serif;
-  font-size: 25px;
-  padding: 10px;
+  font-size: 1.2vmax;
+  padding: 1%;
 }
 
 .content {
@@ -159,9 +157,12 @@ button {
   width: 100%;
   border: none;
   text-align: left;
+  vertical-align: center;
   color: whitesmoke;
   border-radius: 15px;
   border: 1.7px solid whitesmoke;
+  padding: 1vmax 1vmax;
+  line-height: 1.2vmax;
 }
 
 .fourcolumn img,
@@ -172,12 +173,12 @@ button {
 
 .collapsible1 {
   background-color: rgb(60, 60, 60);
-  margin-top: 30px;
+  margin-top: 2%;
 }
 
 .collapsible2 {
   background: rgba(33, 87, 111, 255);
-  margin-bottom: 30px;
+  margin-bottom: 2%;
 }
 
 .active,
@@ -189,12 +190,14 @@ button {
   content: "\002B";
   font-weight: bold;
   float: right;
-  font-size: 25px;
+  font-size: 1.2vmax;
 }
 
 .active:after {
   content: "\2212";
-  font-size: 25px;
+  font-weight: bold;
+  float: right;
+  font-size: 1.2vmax;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -246,15 +249,19 @@ button {
 }
 
 .shiftright {
-  margin-left: 200px;
+  margin-left: 9%;
 }
 
 nav {
   position: fixed;
   top: 25%;
   left: 0;
-  width: 200px;
-  height: 600px;
+  width: 9vmax;
+  /* min-width: 100px;
+  max-width: 250px; */
+  height: 30vmax;
+  /* min-height: 300px;
+  max-height: 600px; */
   padding: 0 15px;
   background: rgba(0, 57, 95, 225);
   overflow-y: auto;
@@ -285,7 +292,7 @@ nav ul li a {
   animation: typing 6s steps(50, end), blink 1s step-end infinite;
   animation-iteration-count: infinite;
   white-space: nowrap;
-  font-size: 30px;
+  font-size: 50%;
   border-right: 4px solid white;
   box-sizing: border-box;
 }
