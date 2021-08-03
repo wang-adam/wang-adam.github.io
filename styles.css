@@ -62,20 +62,24 @@ a:hover {
 
 .bgimg-1 {
   background-image: url("./newWebsiteAssets/ProfilePicture.jpg");
+  background-position: center;
   min-height: 100%;
 }
 .bgimg-4 {
   background-image: url("./newWebsiteAssets/0001.jpg");
+  background-position: center;
   min-height: 45%;
 }
 
 .bgimg-2 {
   background-image: url("./newWebsiteAssets/SierpinskiTriangle_Trim_Moment.jpg");
+  background-position: center;
   min-height: 500px;
 }
 
 .bgimg-3 {
   background-image: url("./newWebsiteAssets/camera.jpg");
+  background-position: center;
   min-height: 500px;
 }
 
@@ -257,11 +261,9 @@ nav {
   top: 25%;
   left: 0;
   width: 9vmax;
-  /* min-width: 100px;
-  max-width: 250px; */
+  min-width: 60px;
   height: 30vmax;
-  /* min-height: 300px;
-  max-height: 600px; */
+  min-height: 150px;
   padding: 0 15px;
   background: rgba(0, 57, 95, 225);
   overflow-y: auto;
