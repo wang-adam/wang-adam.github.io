@@ -64,6 +64,14 @@ a:hover {
   background-image: url("./newWebsiteAssets/ProfilePictureCopy.jpg");
   min-height: 100%;
 }
+
+@media only screen and (max-width: 1000px) {
+  .bgimg-1 {
+    background-image: url("./newWebsiteAssets/ProfilePictureMobile.jpg");
+    min-height: 20%;
+  }
+}
+
 .bgimg-4 {
   background-image: url("./newWebsiteAssets/0001.jpg");
   min-height: 45%;
