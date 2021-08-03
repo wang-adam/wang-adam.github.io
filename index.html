@@ -1,26 +1,21 @@
-<html>
-<header>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
 	<link rel="stylesheet" href="styles.css">
 	<title>Adam Wang 🏠</title>
 	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-
-	<style>
-
-	</style>
-</header>
+</head>
 
 <body>
-
 	<nav>
 		<div>
 			<img src=".\newWebsiteAssets\pfpthumbnail.jpg" alt="thumbnail photo" style="margin: 20px; margin-bottom: 5px; max-width: 75%; opacity: 100%; border-radius: 30%;">
 			<p style="text-align: center;"><a href="./" class="a2">Adam Wang</a></p>
 		</div>
-	
-		
 			<ul>
 			  <li><a href="#home" class=" current">Home</a></li>
 			  <li><a href="#about" class="">About</a></li>
@@ -28,30 +23,30 @@
 			  <li><a href="#projects" class="">Projects</a></li>
 			  <li><a href="#photos" class="">Photos</a></li>
 			</ul>
-
-		
-		  <p style="text-align: center; margin-top: 100;"><a style="font-size: 12;" href="./oldWebsite/index.html"> view old website</a></p>
+		  <p style="text-align: center; margin-top: 60%;"><a style="font-size: 1rem;" href="./oldWebsite/index.html"> view old website</a></p>
 
 	</nav>
-	<section id="home">
-		<div class="bgimg bgimg-1"> 
-			<div class="caption">
-				Adam Wang
-				<div class="typewriter-text">Hello and welcome to my homepage :) </div>
-			</div>
-		</div>
-	</section>
 
-	<section id="about">
-		<div style="color: #777;background-color:rgb(40, 40, 40); text-align:center; padding:50px 80px; text-align: justify;">
+	<div id="home" class="bgimg bgimg-1"> 
+		<div class="caption">
+			Adam Wang
+			<div class="typewriter-text">Hello and welcome to my homepage :) </div>
+		</div>
+	</div>
+	
+	<div id="about">
+		<div style="color: #777;background-color:rgb(40, 40, 40); text-align:center; padding:10px 80px; text-align: justify;">
 			<p class="shiftright" style="text-align:center; font-size: 2rem;">About Me</p>
-			<p class="shiftright" style="color:whitesmoke; font-size: 1.6rem;"> Hello! My name is Adam and I am from Bellevue, Washington. I am a sophomore Computer Science major at the
+			<p class="shiftright" style="color:whitesmoke; font-size: 1.6rem; text-indent: 80px;">
+				Hello! My name is Adam and I am from Bellevue, Washington. I am a sophomore Computer Science major at the
 				<a href="https://www.cs.washington.edu/" style=" font-size: 1.6rem;" target="_blank">Paul G. Allen School</a>
 				at the <a href="http://www.washington.edu/" style=" font-size: 1.6rem;" target="_blank">University of Washington</a>.
-				I mainly code in Java and Python, but have also been working on some web programming (like building this website).
-				Besides programming, I enjoy listening to music, exploring the outdoors, playing chess, and taking photos. Below are small collections of some of my projects and photos. Enjoy!
-				<p class="shiftright" style="text-align:center; font-size: 2rem;">Quick Links</p>
-				<p class="shiftright" style="text-align: center;">
+				I mainly code in Java and Python, but have also been working on some web programming (like building this website). 
+			</p>
+			<p class="shiftright" style="color:whitesmoke; font-size: 1.6rem; text-indent: 80px;">
+				Besides programming, I enjoy listening to music, exploring the outdoors, playing chess, and taking photos. Below is a collection of some of my projects and photos. Enjoy!
+			</p>
+			<p class="shiftright" style="text-align:center; font-size: 2rem;">Quick Links <br>
 					<a ref="mailto:adamwang@uw.edu" href="mailto:adamwang@uw.edu">adamwang@uw.edu</a>
 					<span style="font-size: 25">·</span>
 					<!-- <a href="Adam Wang Resume.pdf" target="_blank">resume</a>
@@ -59,32 +54,27 @@
 					<a href="https://github.com/adamw24" target="_blank">github</a>
 					<span style="font-size: 25">·</span>
 					<a href="https://www.linkedin.com/in/adam-wang-4172711b8/" target="_blank">linkedin</a>
-				</p>
 			</p>
 		</div>
-	</section>
-		
+	</div>
 	
-	
-	<section id="resume">
-		<div class="bgimg bgimg-4">
-			<iframe class="shiftright" style="margin-left: 22%; align-items: normal; width:60%; height:70%;" src=".\oldWebsite\AdamWangResume.pdf"></iframe>
-		</div>
-	</section>
-	
-	<section id="projects">
-		<div class="bgimg bgimg-2">
+	<div id="resume" class="bgimg bgimg-4">
+		<iframe class="shiftright" style="margin-left: 22%; align-items: normal; width:60%; height:600px;" src=".\oldWebsite\AdamWangResume.pdf"></iframe>
+	</div>
+
+	<div id="projects">
+		<div  class="bgimg bgimg-2">
 			<div class="caption">
 				<span>Projects<lord-icon
 					src="https://cdn.lordicon.com/nobciafz.json"
 					trigger="loop"
 					delay="750"
 					colors="primary:#ffffff,secondary:#ffffff"
-					style="width:150;height:150">
+					style="width:125px;height:125px">
 				</lord-icon></span>
 			</div> 
 		</div>
-		<div style="color: #777;background-color:rgba(33, 87, 111, 255); text-align:center; padding:50px 80px;text-align: justify;">
+		<div style="color: #777;background-color:rgba(33, 87, 111, 255); text-align:center; padding:40px; text-align: justify;">
 			<div class="grid-container shiftright">
 				<div class="grid-item item1">
 					<a href="https://github.com/adamw24/BMTron" target="_blank">BMTron Game </a>
@@ -94,7 +84,7 @@
 					</p>
 					<video poster = "./oldWebsite/projects/loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\bmtron.mp4" type="video/mp4" alt="bmtronvideo">Video Not Supported </video>
 				</div>
-	
+
 				<div class="grid-item item2">
 					<a href="https://github.com/adamw24/SierpinskiTriangle" target="_blank">Sierpinski's Triangle
 						Visualization</a>
@@ -108,7 +98,7 @@
 					</p>
 					<video poster = "./oldWebsite/projects/loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\SierpinskiTriangle_Trim.mp4" type="video/mp4" alt="SierpinksiTriange">Video Not Supported </video>
 				</div>
-	
+
 				<div class="grid-item item3">
 					<a href="https://github.com/adamw24/DrawBinaryTree" target="_blank"> Recursive Binary Tree
 						Visualization </a>
@@ -116,7 +106,7 @@
 						placement of the draw statement inside the recursion affects the visualization.</p>
 					<video poster = "./oldWebsite/projects/loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\drawBinaryTree.mp4" type="video/mp4" alt="BinaryTree">Video Not Supported </video>
 				</div>
-	
+
 				<div class="grid-item">
 					<a href="https://github.com/adamw24/BrownianMotionVisual" target="_blank">Brownian Motion Visual
 					</a>
@@ -130,7 +120,7 @@
 						Monte Carlo Simulation </a> to generate projections of <a  href="https://finance.yahoo.com/quote/SPY/" target="blank">S&P500</a> using the drift and a random factor. Data is parsed from an .csv file downloaded from Yahoo Finance.</p>
 					<img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\montecarlostocks" alt="MonteCarloStocksImage">
 				</div>
-	
+
 				<div class="grid-item">
 					<a href="https://github.com/adamw24/RandomvsNotQuiteRandom" target="_blank">Random vs Seemingly
 						Random Points </a>
@@ -140,7 +130,7 @@
 					</p>
 					<video poster = "./oldWebsite/projects/loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\RandomOrNotSo.mp4" type="video/mp4" alt="RandomVsNotRandomPoints">Video Not Supported	</video>
 				</div>
-	
+
 				<div class="grid-item">
 					<a href="https://github.com/adamw24/BestDayToTradeStocks" target="_blank">Best Day of the Week to Trade Stocks</a>
 					<p class="text">Finds which day of the week is the best to buy and which day is the best to sell. Monday is generally the best day to buy, and depending on how much data is used, Wednesday or Thursday seem to be the best days to sell.
@@ -148,7 +138,7 @@
 					<img style="width: 90%; max-width: 876px" loading="lazy" src=".\oldWebsite\projects\BestDayOneYear.png" alt="BestDayOneYearImage">
 					<img style="width: 90%; max-width: 757px" loading="lazy" src=".\oldWebsite\projects\BestDayTwoYear.png" alt="BestDayTwoYearImage">
 				</div>
-	
+
 				<div class="grid-item">
 					<a href="https://github.com/adamw24/FacialRecognitionandForegroundProcessing" target="_blank"> Facial Recognition and Foreground Processing</a>
 					<p class="text">Uses the OpenCV python library to find the face and eyes of people in images. Also uses the library to extract foregrounds of an image. </p>
@@ -168,11 +158,8 @@
 					<img style="width: 90%; max-width: 757px" loading="lazy" src=".\oldWebsite\projects\MoonTrackerResults.png" alt="MoonTrackerResultsImage">
 				</div>
 
-	
-				
-	
 			</div>
-	
+
 			<div class="inside shiftright">
 				<button class="collapsible collapsible1" style=" text-align: center; border-radius: 15px; border: 1.7px solid whitesmoke;">Archived projects</button>
 				<div class="content">
@@ -185,7 +172,7 @@
 							<img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\eApproximation.png" alt="eApproximationImage">
 							<img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\histogram.png" alt="HistogramImage">
 						</div>
-						
+
 						<div class="grid-item item2">
 							<a href="https://github.com/adamw24/FractalExploration" target="_blank">Koch Snowflake
 								Visualization</a>
@@ -231,8 +218,6 @@
 							<video poster = "./oldWebsite/projects/loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\NewBouncingCircles_Trim.mp4" type="video/mp4" alt="BouncingCirclesVideo">Video Not Supported </video>
 						</div>
 
-						
-
 						<div class="grid-item">
 							<a href="https://github.com/adamw24/TextExcel" target="_blank">TextExcel Spreadsheet</a>
 							<p class="text">Functions as a basic Excel spreadsheet. It can perform arithmetic operations and
@@ -251,9 +236,9 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
 	
-	<section id="photos">
+	<div id="photos">
 		<div class="bgimg bgimg-3">
 			<div class="caption">
 				<span>Photos
@@ -262,11 +247,11 @@
 					trigger="loop"
 					delay="750"
 					colors="primary:#ffffff,secondary:#ffffff"
-					style="width: 150; height: 150">
+					style="width: 125px; height: 125px">
 				</lord-icon></span>
 			</div> 
 		</div>
-		<div style="color: #777;background-color:rgb(60, 60, 60); text-align:center; padding:50px 80px;">
+		<div style="color: #777;background-color:rgb(60, 60, 60); text-align:center; padding:40px;">
 			<div class="inside shiftright">
 				<button class="collapsible collapsible2">Portraits</button>
 				<div class="content">
@@ -295,7 +280,7 @@
 						<!--<img src=".\oldWebsite\photos\portraits\VickieWang1.jpg" alt="Vickie Wang Portrait">-->
 						<!--<img src=".\oldWebsite\photos\portraits\Hannah5.jpg" alt="Jonah Quist Portrait">-->
 					</div>
-
+	
 					<div class="fourcolumn">
 						<img src=".\oldWebsite\photos\portraits\Athena.jpg" alt="Athena Leh Portrait">
 						<img src=".\oldWebsite\photos\portraits\RosieNEvelyn.jpg" alt="Rosie and Eveyln Portrait">
@@ -307,7 +292,7 @@
 						<!--<img src=".\oldWebsite\photos\portraits\JohnLeeActionShot2.jpg" alt="John Lee Action Portrait 2">-->
 						<!--<img src=".\oldWebsite\photos\portraits\HannahHat2.jpg" alt="Nathan Yan Portrait">-->	
 					</div>
-
+	
 					<div class="fourcolumn">
 						<img src=".\oldWebsite\photos\portraits\RosieAndCousin.jpg" alt="Rosie and Cousin Portrait">
 						<!--<img src=".\oldWebsite\photos\portraits\HannahHairflip.jpg" alt="Melchi Wang Portrait">-->
@@ -318,14 +303,14 @@
 						<img src=".\oldWebsite\photos\portraits\KavelCamera.jpg" alt="Kavel Camera Portrait">
 						<img src=".\oldWebsite\photos\portraits\RosieHuang1.jpg" alt="Rosie Huang Portrait">	
 					</div>
-
+	
 				</div>
 			</div>
 	
 			<div class="inside shiftright">
 				<button class="collapsible collapsible2">Animals</button>
 				<div class="content">
-
+	
 					<div class="threecolumn">
 						<img src=".\oldWebsite\photos\animals\Chipmunk.jpg" alt="Chipmunk Photo">
 						<img src=".\oldWebsite\photos\animals\Hawk.jpg" alt="Hawk Photo">
@@ -334,7 +319,7 @@
 						<!-- <img src=".\oldWebsite\photos\animals\Seagull.jpg" alt="Seagull Photo"> -->
 						<img src=".\oldWebsite\photos\animals\Bunny.jpg" alt="Bunny Photo">
 					</div>
-
+	
 					<div class="threecolumn">
 						<img src=".\oldWebsite\photos\animals\Bunny2.jpg" alt="Bunny Photo 2">
 						<img src=".\oldWebsite\photos\animals\Bison5.jpg" alt="Bison Photo">
@@ -342,9 +327,9 @@
 						<img src=".\oldWebsite\photos\animals\Dog.jpg" alt="Dog Photo">      
 						<img src=".\oldWebsite\photos\animals\Bee.jpg" alt="Bee Photo">
 					</div>
-
+	
 					<div class="threecolumn">
-
+	
 						<img src=".\oldWebsite\photos\animals\Snake.jpg" alt="Snake Photo">
 						<img src=".\oldWebsite\photos\animals\PolarBear.jpg" alt="Polar Bear Photo">
 						<img src=".\oldWebsite\photos\animals\TwoBirds.jpg" alt="Two Sparrows Photo">
@@ -352,14 +337,14 @@
 						<img src=".\oldWebsite\photos\animals\Goat.jpg" alt="Goat Photo">
 						<img src=".\oldWebsite\photos\animals\duck.jpg" alt="Duck Photo">
 					</div>
-
+	
 				</div>
 			</div>
 	
 			<div class="inside shiftright">
 				<button class="collapsible collapsible2">Landscapes</button>
 				<div class="content">
-
+	
 					<div class="threecolumn">
 						<img src=".\oldWebsite\photos\landscapes\RainierBaker.jpg" alt="Mt Rainier and Mt Baker">
 						<img src=".\oldWebsite\photos\landscapes\AntelopeCanyon.jpg" alt="Lower Antelope Canyon">
@@ -370,7 +355,7 @@
 						<img src=".\oldWebsite\photos\landscapes\Canyon.jpg" alt="Canyon">
 						<img src=".\oldWebsite\photos\landscapes\Board.jpg" alt="Boardwalk in Glacier NP">
 					</div>
-
+	
 					<div class="threecolumn">
 						<img src=".\oldWebsite\photos\landscapes\CloudySunset.jpg" alt="Sunset with Low Clouds">
 						<img src=".\oldWebsite\photos\landscapes\HeatherMaple.jpg" alt="Viewpoint">
@@ -381,7 +366,7 @@
 						<img src=".\oldWebsite\photos\landscapes\Alta10.jpg" alt="Lila Lake 2">
 						<img src=".\oldWebsite\photos\landscapes\rain.jpg" alt="Canyon with Rainbow">
 					</div>
-
+	
 					<div class="threecolumn">
 						<img src=".\oldWebsite\photos\landscapes\MilkyWay.jpg" alt="Milky Way Galaxy">
 						<img src=".\oldWebsite\photos\landscapes\MountainBasin.jpg" alt="Mountins with more sun">
@@ -394,7 +379,7 @@
 						<!--<img src=".\oldWebsite\photos\landscapes\KerryPark.jpg" alt="Bunny Photo">
 						<img src=".\oldWebsite\photos\landscapes\Valley2.jpg" alt="Bunny Photo"> -->
 					</div>
-
+	
 				</div>
 			</div>
 	
@@ -415,7 +400,7 @@
 						<img src=".\oldWebsite\photos\city\lowerfloorneon.jpg" alt="Pike Place 2">	
 						<!--<img src=".\oldWebsite\photos\city\hollywoodsign.jpg" alt="Hollywood Street">-->
 					</div>
-
+	
 					<div class="threecolumn">
 						<img src=".\oldWebsite\photos\city\spaceneedlenight.jpg" alt="Space Needle Kerry Park">
 						<img src=".\oldWebsite\photos\city\seattlelink.jpg" alt="Seattle Link">
@@ -429,7 +414,7 @@
 						<img src=".\oldWebsite\photos\city\electricpole.jpg" alt="Electrical Pole">
 						<img src=".\oldWebsite\photos\city\longexposure.jpg" alt="Long Exposure">
 					</div>
-
+	
 					<div class="threecolumn">
 						<img src=".\oldWebsite\photos\city\phillydt.jpg" alt="Philly Downtown 1">
 						<img src=".\oldWebsite\photos\city\phillycarrier.jpg" alt="Navy Carrier">
@@ -443,11 +428,10 @@
 						<!-- <img src=".\oldWebsite\photos\city\spaceneedlenight.jpg" alt="Philly Bridge Night"> -->
 						<img src=".\oldWebsite\photos\city\neon.jpg" alt="LA Market">
 					</div>
-					
 				</div>
 			</div>
-		</div>
-	</section>
+		</div>	
+	</div>
 	
 	
 
@@ -483,11 +467,11 @@
 	
 
 		mainNavLinks.forEach(link => {
-			let section = document.querySelector(link.hash);
+			let span = document.querySelector(link.hash);
 
 			if (
-				section.offsetTop <= fromTop+300 && 
-				section.offsetTop -300 + section.offsetHeight> fromTop
+				span.offsetTop <= fromTop+300 && 
+				span.offsetTop -300 + span.offsetHeight> fromTop
 			){
 				link.classList.add("current");
 			} else {
