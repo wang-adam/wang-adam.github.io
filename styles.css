@@ -83,15 +83,20 @@ a:hover {
 }
 
 @media only screen and (max-width: 1000px) {
+  .bgimg {
+    background-size: contain;
+  }
   .bgimg-1 {
     background-image: url("./newWebsiteAssets/ProfilePictureMobile.jpg");
     min-height: 80%;
-    background-size: contain;
   }
-  .bgimg-2,
+  .bgimg-2 {
+    background-position: bottom;
+    background-repeat: round;
+    min-height: 200px;
+  }
   .bgimg-3 {
-    background-size: contain;
-    background-position: center;
+    background-position: bottom;
     background-repeat: round;
     min-height: 200px;
   }
