@@ -90,7 +90,6 @@ a:hover {
   }
   .bgimg-2,
   .bgimg-3 {
-    background-position: bottom;
     background-size: contain;
     min-height: 200px;
   }
