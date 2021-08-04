@@ -91,6 +91,8 @@ a:hover {
   .bgimg-2,
   .bgimg-3 {
     background-size: contain;
+    background-position: center;
+    background-repeat: round;
     min-height: 200px;
   }
 }
