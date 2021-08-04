@@ -70,12 +70,7 @@ a:hover {
   .bgimg-1 {
     background-image: url("./newWebsiteAssets/ProfilePictureMobile.jpg");
     min-height: 100%;
-  }
-  .bgimg {
     background-size: contain;
-  }
-  iframe {
-    width: 90%;
   }
 }
 
