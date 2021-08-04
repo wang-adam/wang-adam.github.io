@@ -72,9 +72,10 @@ a:hover {
     min-height: 80%;
     background-size: contain;
   }
-  .bgimg2,
-  .bgimg3 {
+  .bgimg-2,
+  .bgimg-3 {
     background-position: center;
+    /* background-size: contain; */
     min-height: 300px;
   }
 }
