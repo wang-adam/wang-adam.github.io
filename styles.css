@@ -90,13 +90,9 @@ a:hover {
     background-image: url("./newWebsiteAssets/ProfilePictureMobile.jpg");
     min-height: 80%;
   }
-  .bgimg-2 {
-    background-position: bottom;
-    background-repeat: round;
-    min-height: 200px;
-  }
+  .bgimg-2,
   .bgimg-3 {
-    background-position: bottom;
+    background-position: center;
     background-repeat: round;
     min-height: 200px;
   }
