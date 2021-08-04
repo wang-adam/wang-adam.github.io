@@ -299,9 +299,10 @@ nav ul li a {
     background-repeat: round;
     min-height: 200px;
   }
-  iframe .shiftright {
+  .bgimg .bgimg-4 .shiftright {
     margin-left: 0%;
     width: 100%;
+    background-color: teal;
   }
 }
 
