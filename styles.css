@@ -299,7 +299,7 @@ nav ul li a {
     background-repeat: round;
     min-height: 200px;
   }
-  iframe {
+  iframe .shiftright {
     margin-left: 0%;
     width: 100%;
   }
