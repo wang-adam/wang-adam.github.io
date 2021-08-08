@@ -95,8 +95,7 @@ a:hover {
 
 .item4 {
   grid-column: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row: 1;
 }
 
 img,
