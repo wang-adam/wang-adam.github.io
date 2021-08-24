@@ -98,6 +98,11 @@ a:hover {
   grid-row: 1;
 }
 
+.item5 {
+  grid-column: 5;
+  grid-row: 1;
+}
+
 img,
 video {
   margin-top: 4px;
