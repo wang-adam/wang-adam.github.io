@@ -2,12 +2,26 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Adam Wang">
-	<meta name="description" content="Adam Wang's Personal Website">
-	<meta name="keywords" content="Adam Wang, Adam, Wang">
+	<meta name="description" content="Adam Wang's personal website">
+	<meta name="keywords" content="Adam Wang, Adam, Wang, CS, Computer Science, UW, University of Washington, Seattle">
+	<meta property="og:title" content="Adam Wang">
+	<meta property="og:site_name" content="Adam Wang personal website">
+	<meta property="og:description" content="Adam Wang's personal website">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://adamw24.github.io">
+	<meta property="og:image" content="https://github.com/adamw24/adamw24.github.io/blob/master/newWebsiteAssets/websitethumbnailsmall.png?raw=true">
+	<meta property="og:image:width" content="3190">
+	<meta property="og:image:height" content="1857">
+	<meta property="og:image:type" content="image/png">
+
+
+	<meta property="og:locale" content="en_US">
+	
 	<link rel="stylesheet" href="styles.css">
-	<title>Adam Wang 🏠</title>
+	<title>Adam Wang</title>
 	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
@@ -34,20 +48,20 @@
 	<div id="home" class="bgimg bgimg-1"> 
 		<div class="caption">
 			Adam Wang
-			<div class="typewriter-text">Hello and welcome to my homepage :) </div>
+			<div class="typewriter-text">Hello and welcome to my website :) </div>
 		</div>
 	</div>
 	
 	<div id="about">
-		<div style="color: #777;background-color:rgb(40, 40, 40); text-align:center; padding:1% 5%; text-align: justify;">
+		<div style="color:whitesmoke;background-color:rgb(40, 40, 40); text-align:center; padding:1% 5%; text-align: justify;">
 			<p class="shiftright title" style="text-align:center; margin-bottom: 1vw;">About Me</p>
-			<p class="shiftright text" style="color:whitesmoke; text-align:left; text-indent: 3vw;">
+			<p class="shiftright text" style=" text-align:left; text-indent: 3vw;">
 				Hello! My name is Adam and I am from Bellevue, Washington. I am a sophomore Computer Science major at the
 				<a href="https://www.cs.washington.edu/" target="_blank" rel="noreferrer">Paul G. Allen School</a>
 				at the <a href="http://www.washington.edu/" target="_blank" rel="noreferrer">University of Washington</a>.
 				I mainly code in Java and Python, but have also been working on some web programming (like building this website). 
 			</p>
-			<p class="shiftright" style="color:whitesmoke; text-align:left; text-indent: 3vw;">
+			<p class="shiftright" style=" text-align:left; text-indent: 3vw;">
 				Besides programming, I enjoy listening to music, exploring the outdoors, playing chess, and taking photos. Below is a collection of some of my projects and photos. Enjoy!
 			</p>
 			<p class="shiftright title" style="text-align:center; margin-bottom: 1vw;">Quick Links </p>
@@ -58,14 +72,14 @@
 					<span style="font-size: 25">·</span> -->
 					<a href="https://github.com/adamw24" target="_blank" rel="noreferrer">github</a>
 					<span style="font-size: 25">·</span>
-					<a href="https://www.linkedin.com/in/adam-wang-4172711b8/" target="_blank" rel="noreferrer">linkedin</a>
+					<a href="https://www.linkedin.com/in/adamwang24/" target="_blank" rel="noreferrer">linkedin</a>
 					</p>
 					
 		</div>
 	</div>
 	
 	<div id="resume" class="bgimg bgimg-4 shiftright">
-		<iframe title="Adam Wang Resume" width=60%; height=700vmax; src=".\oldWebsite\AdamWangResume2021.pdf"></iframe>
+		<iframe title="Adam Wang Resume" width=60%; height=700vmax; src=".\oldWebsite\Adam Wang Resume 2021.pdf"></iframe>
 	</div>
 
 	<div id="projects">
@@ -80,10 +94,11 @@
 				</lord-icon>
 			</div> 
 		</div>
-		<div style="color: #777;background-color:rgba(33, 87, 111, 255); text-align:center; padding:2%;">
+		<div style="background-color:rgba(33, 87, 111, 255); text-align:center; padding:2%;">
 			<div class="grid-container shiftright">
+
 				<div class="grid-item item1">
-					<a class="title" href="https://github.com/adamw24/BMTron" target="_blank" rel="noreferrer">BMTron Game </a>
+					<a class="title" href="https://github.com/adamw24/BMTron" target="_blank" rel="noreferrer">BMTron</a>
 					<p class="text"> Two-player game where the goal is to make the opponent crash into the edge or a
 						previous crossed path. Modeled after a game I used to play
 						when when I was little.
@@ -91,7 +106,48 @@
 					<video poster = "./oldWebsite/projects/loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\bmtron.mp4" type="video/mp4" alt="bmtronvideo">Video Not Supported </video>
 				</div>
 
+				
+				<div class="grid-item item2">
+					<a class="title" href="https://github.com/adamw24/GameOfLife" target="_blank" rel="noreferrer">Conway's Game of Life </a>
+					<p class="text">Created the Conway's cellular automaton using React. "The Game of Life is unpredictable, which means that given an initial pattern and a later pattern, no algorithm exists that can tell whether the later pattern is ever going to appear." <a href="https://agreeable-plant-0e76cc610.azurestaticapps.net/" target="_blank" rel="noreferrer">Play with it here!</a>
+					</p>
+					<video poster = "./oldWebsite/projects/loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\GameOfLife.mp4" type="video/mp4" alt="GameOfLife">Video Not Supported	</video>
+				</div>
+
 				<div class="grid-item item3">
+					<a class="title" href="https://github.com/adamw24/BrownianMotionVisual" target="_blank" rel="noreferrer">Brownian Motion Visual
+					</a>
+					<p class="text">Simulates the random motion of particles in liquids and gasses. For example, pollen movement in water due to the collision of the water molecules. <a href="https://en.wikipedia.org/wiki/Brownian_motion">Further reading.</a></p>
+					<video poster = "./oldWebsite/projects/loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\BrownianMotion.mp4" type="video/mp4" alt="BrownianMotionVideo">Video Not Supported </video>
+				</div>
+
+				<div class="grid-item">
+					<a class="title" href="https://github.com/adamw24/FashionMNISTNeuralNetwork" target="_blank" rel="noreferrer">Fashion Neural Network 
+					</a>
+					<p class="text">Built a Neural Network using TensorFlow that categorizes types of clothing. I adapted it to predict types of clothes from the internet.</p>
+					<img style="width: 90%; max-width: 876px" loading="lazy" src=".\oldWebsite\projects\coat.png" alt="coatImage">
+					<img style="width: 90%; max-width: 757px" loading="lazy" src=".\oldWebsite\projects\pants.png" alt="pantsImage">
+				</div>
+
+				<div class="grid-item">
+					<a class="title" href="https://github.com/adamw24/FacialRecognitionandForegroundProcessing" target="_blank" rel="noreferrer"> Facial Recognition and Foreground Processing</a>
+					<p class="text">Uses the OpenCV Python library to find the face and eyes of people in images. Also uses the library to extract foregrounds of an image. </p>
+					<img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\FR1.jpg" alt="FacialRecog1">
+					<!-- <img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\FR3.png" alt="eApproximationImage"> -->
+					<!-- <img style="width: 45%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\FR2.png" alt="eApproximationImage"> -->
+					<!-- <img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\FR4.png" alt="FacialRecog2"> -->
+					<img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\IP1.jpg" alt="Foreground1">
+				</div>
+
+				<div class="grid-item">
+					<a class="title" href="https://github.com/adamw24/BestDayToTradeStocks" target="_blank" rel="noreferrer">Best Day of the Week to Trade Stocks</a>
+					<p class="text">Finds which day of the week is the best to buy/sell. Calculates the average percent gain with respect to Monday's closing price.
+					</p>
+					<img style="width: 90%; max-width: 876px" loading="lazy" src=".\oldWebsite\projects\BestDayOneYear.png" alt="BestDayOneYearImage">
+					<img style="width: 90%; max-width: 757px" loading="lazy" src=".\oldWebsite\projects\BestDayTwoYear.png" alt="BestDayTwoYearImage">
+				</div>
+
+				<div class="grid-item ">
 					<a class="title" href="https://github.com/adamw24/SierpinskiTriangle" target="_blank" rel="noreferrer">Sierpinski's Triangle
 						Visualization</a>
 					<p class="text">Generates <a href="https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle"
@@ -105,71 +161,25 @@
 					<video poster = "./oldWebsite/projects/loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\SierpinskiTriangle_Trim.mp4" type="video/mp4" alt="SierpinksiTriange">Video Not Supported </video>
 				</div>
 
+				
+				
 				<div class="grid-item">
-					<a class="title" href="https://github.com/adamw24/FacialRecognitionandForegroundProcessing" target="_blank" rel="noreferrer"> Facial Recognition and Foreground Processing</a>
-					<p class="text">Uses the OpenCV python library to find the face and eyes of people in images. Also uses the library to extract foregrounds of an image. </p>
-					<img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\FR1.jpg" alt="FacialRecog1">
-					<!-- <img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\FR3.png" alt="eApproximationImage"> -->
-					<!-- <img style="width: 45%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\FR2.png" alt="eApproximationImage"> -->
-					<!-- <img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\FR4.png" alt="FacialRecog2"> -->
-					<img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\IP1.jpg" alt="Foreground1">
-				</div>
-
-				<div class="grid-item">
-					<a class="title" href="https://github.com/adamw24/FashionMNISTNeuralNetwork" target="_blank" rel="noreferrer">Fashion Neural Network 
+					<a class="title" href="https://github.com/adamw24/MinesweeperUsingReact" target="_blank" rel="noreferrer">Mine Sweeper
 					</a>
-					<p class="text">Built a Neural Network using <a href="https://www.tensorflow.org/" target="_blank" rel="norefferrer">TensorFlow</a> that categorizes types of clothing. I adapted it to predict types of clothes from the internet.</p>
-					<img style="width: 90%; max-width: 876px" loading="lazy" src=".\oldWebsite\projects\coat.png" alt="coatImage">
-					<img style="width: 90%; max-width: 757px" loading="lazy" src=".\oldWebsite\projects\pants.png" alt="pantsImage">
+					<p class="text">Built the classic Mine Sweeper game as a web application using React. Mines are randomly placed onto the board and board size can be adjusted. <a href="https://kind-water-079696310.azurestaticapps.net/" target="_blank" rel="noreferrer">Play it here!</a></p>
+					<img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\MediumMineSweeper.png" alt="WellnessNotifImage">
+
 				</div>
 
 				
-
-				<div class="grid-item">
-					<a class="title" href="https://github.com/adamw24/BestDayToTradeStocks" target="_blank" rel="noreferrer">Best Day of the Week to Trade Stocks</a>
-					<p class="text">Finds which day of the week is the best to buy/sell. Calculates the average percent gain with respect to Monday's closing price.
-					</p>
-					<img style="width: 90%; max-width: 876px" loading="lazy" src=".\oldWebsite\projects\BestDayOneYear.png" alt="BestDayOneYearImage">
-					<img style="width: 90%; max-width: 757px" loading="lazy" src=".\oldWebsite\projects\BestDayTwoYear.png" alt="BestDayTwoYearImage">
-				</div>
-
-				<div class="grid-item">
-					<a class="title" href="https://github.com/adamw24/RandomvsNotQuiteRandom" target="_blank" rel="noreferrer">Random vs Seemingly
-						Random Points </a>
-					<p class="text">Explores the concept of truly random points versus points that seem random but are
-						not. Inspired by <span style="font-style: italic">How Not to Be Wrong: The Power of Mathematical
-							Thinking </span>by Jordan Ellenberg.
-					</p>
-					<video poster = "./oldWebsite/projects/loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\RandomOrNotSo.mp4" type="video/mp4" alt="RandomVsNotRandomPoints">Video Not Supported	</video>
-				</div>
-				
-				<div class="grid-item item2">
-					<a class="title" href="https://github.com/adamw24/BrownianMotionVisual" target="_blank" rel="noreferrer">Brownian Motion Visual
-					</a>
-					<p class="text">Simulates the random motion of particles in liquids and gasses. For example, pollen movement in water due to the collision of the water molecules. <a href="https://en.wikipedia.org/wiki/Brownian_motion">Further reading.</a></p>
-					<video poster = "./oldWebsite/projects/loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\BrownianMotion.mp4" type="video/mp4" alt="BrownianMotionVideo">Video Not Supported </video>
-				</div>
 
 				<div class="grid-item">
 					<a class="title" href="https://github.com/adamw24/MonteCarloSimulationStock" target="_blank" rel="noreferrer"> Monte Carlo Simulation of S&P500 </a>
 					<p class="text">Uses the <a href="investopedia.com/terms/m/montecarlosimulation.asp#:~:text=A%20Monte%20Carlo%20simulation%20is,in%20prediction%20and%20forecasting%20models." target="_blank" rel="noreferrer">
-						Monte Carlo Simulation </a> to generate projections of <a  href="https://finance.yahoo.com/quote/SPY/" target="blank">S&P500</a> using the drift and a random factor. Data is parsed from an .csv file downloaded from Yahoo Finance.</p>
+						Monte Carlo Simulation </a> to generate projections of S&P500 using the drift and a random factor. Data is parsed from an .csv file downloaded from Yahoo Finance.</p>
 					<img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\montecarlostocks.jpg" alt="MonteCarloStocksImage">
 				</div>
 
-				
-				<div class="grid-item">
-					<a class="title" href="https://github.com/adamw24/DrawBinaryTree" target="_blank" rel="noreferrer"> Recursive Binary Tree
-						Visualization </a>
-					<p class="text">Accepts input for number of levels and angle between each branch. Interesting how
-						placement of the draw statement inside the recursion affects the visualization.</p>
-					<video poster = "./oldWebsite/projects/loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\drawBinaryTree.mp4" type="video/mp4" alt="BinaryTree">Video Not Supported </video>
-				</div>
-				
-
-				
-
-				
 			</div>
 
 			<div class="inside shiftright">
@@ -186,16 +196,23 @@
 							<img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\histogram.png" alt="HistogramImage">
 						</div>
 						
-			
 						<div class="grid-item item2">
-							<a class="title" href="https://github.com/adamw24/wellnessNotification" target="_blank" rel="noreferrer">Wellness Notification</a>
-							<p class="text">Sends a desktop reminder every hour to drink water and take a screen break. </p>
-							<img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\wellnessNotif.png" alt="WellnessNotifImage">
+							<a class="title" href="https://github.com/adamw24/TicTacToe" target="_blank" rel="noreferrer">TicTacToe with React </a>
+							<p class="text">Has PvP or PvC game modes. The computer has a "dummy" difficulty that selects a random square and a "smart"
+								difficulty that plays with optimal strategy. Built with Java in high school and later built it into a React web application. </p>
+							<img style="width: 90%; max-width: 752px;" class="center" loading="lazy" src=".\oldWebsite\projects\TicTacToe1.png"
+								alt="TicTacToeImage1">
 						</div>
 
-						
-
 						<div class="grid-item item3">
+							<a class="title" href="https://github.com/adamw24/DrawBinaryTree" target="_blank" rel="noreferrer"> Recursive Binary Tree
+								Visualization </a>
+							<p class="text">Accepts input for number of levels and angle between each branch. Interesting how
+								placement of the draw statement inside the recursion affects the visualization.</p>
+							<video poster = "./oldWebsite/projects/loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\drawBinaryTree.mp4" type="video/mp4" alt="BinaryTree">Video Not Supported </video>
+						</div>	
+
+						<div class="grid-item item4">
 							<a class="title" href="https://github.com/adamw24/MoonTracker" target="_blank" rel="noreferrer">Moon Tracker Web Application </a>
 							<p class="text">Gives the ideal spot to stand so that the moon appears behind a target object using
 								input data and the moon cycle. My CSE 143 final project and first web app. Worked with Kavel Rao and Alek Metzelaar.
@@ -204,7 +221,17 @@
 							<img style="width: 90%; max-width: 757px" loading="lazy" src=".\oldWebsite\projects\MoonTrackerResults.png" alt="MoonTrackerResultsImage">
 						</div>
 						
-						<div class="grid-item item4">
+						<div class="grid-item item5">
+							<a class="title" href="https://github.com/adamw24/RandomvsNotQuiteRandom" target="_blank" rel="noreferrer">Random vs Seemingly
+								Random Points </a>
+							<p class="text">Explores the concept of truly random points versus points that seem random but are
+								not. Inspired by <span style="font-style: italic">How Not to Be Wrong: The Power of Mathematical
+									Thinking </span>by Jordan Ellenberg.
+							</p>
+							<video poster = "./oldWebsite/projects/loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\RandomOrNotSo.mp4" type="video/mp4" alt="RandomVsNotRandomPoints">Video Not Supported	</video>
+						</div>
+
+						<div class="grid-item">
 							<a class="title" href="https://github.com/adamw24/FractalExploration" target="_blank" rel="noreferrer">Koch Snowflake
 								Visualization</a>
 							<p class="text">Shows a few iterations of the <a
@@ -214,19 +241,13 @@
 							<video poster= "./oldWebsite/projects/loading.gif" class="center" loading="lazy" style="width: 90%; max-width: 800px;" loop autoplay muted playsinline src=".\oldWebsite\projects\KochSnowflake.mp4" type="video/mp4" alt="KochSnowflakeVideo">Video Not Supported </video>
 						</div>
 
-						<div class="grid-item">
-							<a class="title" href="https://github.com/adamw24/TicTacToe" target="_blank" rel="noreferrer">Player vs Player / Player vs Computer
-								TicTacToe </a>
-							<p class="text">The computer has a "dummy" difficulty that selects a random square and a "smart"
-								difficulty that plays with optimal strategy. Was my final project for AP Computer Science in
-								highschool.</p>
-							<img style="width: 90%; max-width: 752px;" class="center" loading="lazy" src=".\oldWebsite\projects\TicTacToe1.png"
-								alt="TicTacToeImage1">
-							<div class="center">
-								<img style="width: 30%; max-width:180px" loading="lazy" src=".\oldWebsite\projects\TicTacToe3.png" alt="TicTacToeImage3">
-								<img style="width: 30%; max-width:180px" loading="lazy" src=".\oldWebsite\projects\TicTacToe2.png" alt="TicTacToeImage2">
-							</div>
-						</div>	
+						<div class="grid-item ">
+							<a class="title" href="https://github.com/adamw24/wellnessNotification" target="_blank" rel="noreferrer">Wellness Notification</a>
+							<p class="text">Sends a desktop reminder every hour to drink water and take a screen break. </p>
+							<img style="width: 90%; max-width: 900px;" class="center" loading="lazy" src=".\oldWebsite\projects\wellnessNotif.png" alt="WellnessNotifImage">
+						</div>
+
+						
 						<div class="grid-item">
 							<a class="title" href="https://github.com/adamw24/BouncingCircles" target="_blank" rel="noreferrer">Bouncing Circles Screensaver
 							</a>
@@ -248,6 +269,8 @@
 								for AP Computer Science.</p>
 							<img style="width: 90%; max-width: 765px;" class="center" loading="lazy" src=".\oldWebsite\projects\TextExcel.png" alt="TextExcelImage">
 						</div>
+
+							
 						
 						<!-- <div class="grid-item">
 							<a href="https://github.com/adamw24/nQueens" target="_blank" rel="noreferrer"> nQueens Problem </a>
@@ -274,57 +297,84 @@
 				</lord-icon>
 			</div> 
 		</div>
-		<div style="color: #777;background-color:rgb(60, 60, 60); text-align:center; padding:2%;">
+		<div style="background-color:rgb(60, 60, 60); text-align:center; padding:2%;">
 			<div class="inside shiftright">
 				<button class="collapsible collapsible2">Portraits</button>
 				<div class="content">
 				
 					<div class="fourcolumn">
 						<img src=".\oldWebsite\photos\portraits\IsaacFence.jpg" alt="Isaac Cody Fence Portrait">
+						<img src=".\oldWebsite\photos\portraits\Athena.jpg" alt="Athena Leh Portrait">
+
 						<img src=".\oldWebsite\photos\portraits\HannahHat1.jpg" alt="Hannah Goodell Portrait 3">
 						<img src=".\oldWebsite\photos\portraits\IsaacGraffiti.jpg" alt="Isaac Cody Graffiti Portrait">
-						<img src=".\oldWebsite\photos\portraits\JonahQuist1.jpg" alt="Jonah Quist Portrait">
+						<img src=".\oldWebsite\photos\portraits\TrafficOfficer.jpg" alt="Jonah Quist Portrait">
+
 						<!--<img src=".\oldWebsite\photos\portraits\HannahBookstore.jpg" alt="Hannah Goodell Bookstore Portrait"> -->
-						<img src=".\oldWebsite\photos\portraits\AnneHashi1.jpg" alt="Anne Hashizume Portrait">
-						<img src=".\oldWebsite\photos\portraits\JohnLee.jpg" alt="John Lee Portrait">
+						<!-- <img src=".\oldWebsite\photos\portraits\AnneHashi1.jpg" alt="Anne Hashizume Portrait"> -->
+
+						<!-- <img src=".\oldWebsite\photos\portraits\JohnLee.jpg" alt="John Lee Portrait"> -->
+
 						<!--<img src=".\oldWebsite\photos\portraits\ClaireJung2.jpg" alt="Claire Jung Portrait">-->
 					</div>
 					
 					<div class="fourcolumn">
 						<img src=".\oldWebsite\photos\portraits\NikaWoo2.jpg" alt="Nika Woo Portrait">
 						<!--<img src=".\oldWebsite\photos\portraits\AnneHashi1.jpg" alt="Anne Hashizume Portrait">-->
-						<img src=".\oldWebsite\photos\portraits\melchiswing2.jpg" alt="Melchi Wang Swing Portrait">
+						<img src=".\oldWebsite\photos\portraits\kalissa1.jpg" alt="John Lee Portrait">
+
 						<img src=".\oldWebsite\photos\portraits\hannahcherry.jpg" alt="Hannah Goodell Cherry Blossoms Portrait">
-						<img src=".\oldWebsite\photos\portraits\NikaWoo1.jpg" alt="Nika Woo Portrait 2">
+						<img src=".\oldWebsite\photos\portraits\Reenah1.jpg" alt="Reenah Gwak Portrait">
+
 						<img src=".\oldWebsite\photos\portraits\MelchiWang2.jpg" alt="Melchi Wang Portrait">	
-						<img src=".\oldWebsite\photos\portraits\AxelLi2.jpg" alt="Axel Li Portrait">	
+						<img src=".\oldWebsite\photos\portraits\RosieAndCousin.jpg" alt="Rosie and Cousin Portrait">
+
+						<!-- <img src=".\oldWebsite\photos\portraits\AxelLi2.jpg" alt="Axel Li Portrait">	 -->
 						<!-- <img src=".\oldWebsite\photos\portraits\AxelLi2.jpg" alt="Axel Li Portrait 2"> -->
-						<img src=".\oldWebsite\photos\portraits\KavelReflectionc.jpg" alt="Kavel Rao Glasses Reflection Portrait">
+
+						<!-- <img src=".\oldWebsite\photos\portraits\KavelReflectionc.jpg" alt="Kavel Rao Glasses Reflection Portrait"> -->
 						<!--<img src=".\oldWebsite\photos\portraits\VickieWang1.jpg" alt="Vickie Wang Portrait">-->
 						<!--<img src=".\oldWebsite\photos\portraits\Hannah5.jpg" alt="Jonah Quist Portrait">-->
+
 					</div>
 	
 					<div class="fourcolumn">
-						<img src=".\oldWebsite\photos\portraits\Athena.jpg" alt="Athena Leh Portrait">
+						<img src=".\oldWebsite\photos\portraits\Kalissa2.jpg" alt="John Lee Portrait">
+						<img src=".\oldWebsite\photos\portraits\KyleAndKalissa1.jpg" alt="John Lee Portrait">
+
 						<img src=".\oldWebsite\photos\portraits\RosieNEvelyn.jpg" alt="Rosie and Eveyln Portrait">
-						<img src=".\oldWebsite\photos\portraits\KavelRao2.jpg" alt="Kavel Rao Portrait">
-						<img src=".\oldWebsite\photos\portraits\Reenah1.jpg" alt="Reenah Gwak Portrait">
+						<img src=".\oldWebsite\photos\portraits\NikaWoo1.jpg" alt="Nika Woo Portrait 2">
+						<img src=".\oldWebsite\photos\portraits\RandomPedestrian.jpg" alt="Richard Prom Portrait">
+
+						<!-- <img src=".\oldWebsite\photos\portraits\KavelRao2.jpg" alt="Kavel Rao Portrait"> -->
 						<!-- <img src=".\oldWebsite\photos\portraits\Hannah11.jpg" alt="Hannah Goodell Portrait 4"> -->
-						<img src=".\oldWebsite\photos\portraits\Hannah0.jpg" alt="Hannah Goodell Portrait 5">
-						<img src=".\oldWebsite\photos\portraits\BrandonNNick.jpg" alt="Brandon and Nick Portrait">
+						<!-- <img src=".\oldWebsite\photos\portraits\Hannah0.jpg" alt="Hannah Goodell Portrait 5"> -->
+						<!-- <img src=".\oldWebsite\photos\portraits\BrandonNNick.jpg" alt="Brandon and Nick Portrait"> -->
 						<!--<img src=".\oldWebsite\photos\portraits\JohnLeeActionShot2.jpg" alt="John Lee Action Portrait 2">-->
 						<!--<img src=".\oldWebsite\photos\portraits\HannahHat2.jpg" alt="Nathan Yan Portrait">-->	
+
+
 					</div>
 	
 					<div class="fourcolumn">
-						<img src=".\oldWebsite\photos\portraits\RosieAndCousin.jpg" alt="Rosie and Cousin Portrait">
+						<img src=".\oldWebsite\photos\portraits\HannahAndAdam.jpg" alt="John Lee Portrait">
+						<img src=".\oldWebsite\photos\portraits\Kyle1.jpg" alt="John Lee Portrait">
+
 						<!--<img src=".\oldWebsite\photos\portraits\HannahHairflip.jpg" alt="Melchi Wang Portrait">-->
+
 						<img src=".\oldWebsite\photos\portraits\NathanYan2.jpg" alt="Nathan Yan Portrait">
+						<img src=".\oldWebsite\photos\portraits\Kyle2.jpg" alt="John Lee Portrait">
+
 						<img src=".\oldWebsite\photos\portraits\Hannah6.jpg" alt="Hannah Goodell Portrait 1">
-						<img src=".\oldWebsite\photos\portraits\Richard.jpg" alt="Richard Prom Portrait">
-						<img src=".\oldWebsite\photos\portraits\HannahReflection.jpg" alt="Hannah Goodell Portrait 6">
-						<img src=".\oldWebsite\photos\portraits\KavelCamera.jpg" alt="Kavel Camera Portrait">
-						<img src=".\oldWebsite\photos\portraits\RosieHuang1.jpg" alt="Rosie Huang Portrait">	
+
+						<!-- <img src=".\oldWebsite\photos\portraits\melchiswing2.jpg" alt="Melchi Wang Swing Portrait"> -->
+
+						<!-- <img src=".\oldWebsite\photos\portraits\HannahReflection.jpg" alt="Hannah Goodell Portrait 6"> -->
+						<!-- <img src=".\oldWebsite\photos\portraits\KavelCamera.jpg" alt="Kavel Camera Portrait"> -->
+
+						<img src=".\oldWebsite\photos\portraits\RosieHuang1.jpg" alt="Rosie Huang Portrait">
+
+	
 					</div>
 	
 				</div>
@@ -455,6 +505,7 @@
 			</div>
 		</div>	
 	</div>
+	<div style="color:whitesmoke;background-color:rgba(33, 87, 111, 255); text-align:center; padding: 0.75vmax; font-size: 1vmax;">made from scratch, with love :)</div>
 	
 	
 
