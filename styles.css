@@ -269,7 +269,7 @@ nav ul li a {
 }
 
 .bgimg-1 {
-  background-image: url("./newWebsiteAssets/ProfilePictureCopy.jpg");
+  background-image: url("./newWebsiteAssets/pfp.jpg");
   min-height: 100%;
 }
 
@@ -298,8 +298,8 @@ iframe {
     background-size: contain;
   }
   .bgimg-1 {
-    background-image: url("./newWebsiteAssets/ProfilePictureMobile.jpg");
-    min-height: 80%;
+    /* background-image: url("./newWebsiteAssets/ProfilePictureMobile.jpg"); */
+    background-size: cover;
   }
   .bgimg-2,
   .bgimg-3 {
