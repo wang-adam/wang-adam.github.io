@@ -263,9 +263,9 @@ nav ul li a {
   position: relative;
   opacity: 0.9;
   background-attachment: fixed;
-  background-position: top;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .bgimg-1 {
@@ -299,7 +299,7 @@ iframe {
   }
   .bgimg-1 {
     /* background-image: url("./newWebsiteAssets/ProfilePictureMobile.jpg"); */
-    background-size: cover;
+    /* background-size: cover; */
     background-position: center center;
   }
   .bgimg-2,
