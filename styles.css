@@ -300,6 +300,7 @@ iframe {
   .bgimg-1 {
     /* background-image: url("./newWebsiteAssets/ProfilePictureMobile.jpg"); */
     background-size: auto 15%;
+    background-position: top;
   }
   .bgimg-2,
   .bgimg-3 {
