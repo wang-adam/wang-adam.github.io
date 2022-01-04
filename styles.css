@@ -233,11 +233,10 @@ nav {
   position: fixed;
   top: 35%;
   left: 0;
-  width: 6vmax;
+  width: 6vw;
   min-width: 70px;
-  height: 15vmax;
+  height: 30vh;
   min-height: 180px;
-  padding: 0 15px;
   background: rgba(0, 57, 95, 225);
   overflow-y: auto;
   z-index: 1000;
@@ -247,8 +246,12 @@ nav {
 }
 nav ul {
   list-style: none;
-  margin: 0;
+  margin: 5vh 0;
   padding: 0;
+}
+
+nav ul li{
+  margin: 1.4vh 0;
 }
 
 nav ul li a.current {
