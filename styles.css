@@ -231,7 +231,7 @@ button {
 
 nav {
   position: fixed;
-  top: 25%;
+  top: 35%;
   left: 0;
   width: 6vmax;
   min-width: 70px;
@@ -257,7 +257,6 @@ nav ul li a.current {
 
 nav ul li a {
   color: rgb(103, 111, 202);
-  font-size: 1vmax;
 }
 
 .bgimg {
@@ -300,6 +299,7 @@ nav ul li a {
     background-repeat: round;
     min-height: 200px;
   }
+}
 
 .typewriter-text {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
