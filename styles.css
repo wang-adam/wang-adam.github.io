@@ -233,16 +233,16 @@ nav {
   position: fixed;
   top: 25%;
   left: 0;
-  width: 9vmax;
+  width: 6vmax;
   min-width: 70px;
-  height: 30vmax;
+  height: 15vmax;
   min-height: 180px;
   padding: 0 15px;
   background: rgba(0, 57, 95, 225);
   overflow-y: auto;
   z-index: 1000;
   opacity: 90%;
-  border-radius: 1vmax;
+  border-radius: 0 1vmax 1vmax 0;
   text-align: center;
 }
 nav ul {
@@ -257,6 +257,7 @@ nav ul li a.current {
 
 nav ul li a {
   color: rgb(103, 111, 202);
+  font-size: 1vmax;
 }
 
 .bgimg {
@@ -273,11 +274,6 @@ nav ul li a {
   min-height: 100%;
 }
 
-.bgimg-4 {
-  background-image: url("./newWebsiteAssets/0001.jpg");
-  min-height: 45%;
-}
-
 .bgimg-2 {
   background-image: url("./newWebsiteAssets/SierpinskiTriangle_Trim_Moment.jpg");
   min-height: 500px;
@@ -287,10 +283,6 @@ nav ul li a {
   background-image: url("./newWebsiteAssets/ice.jpg");
   /* background-position: center; */
   min-height: 500px;
-}
-
-iframe {
-  margin-left: 20%;
 }
 
 @media only screen and (max-width: 499px) {
@@ -308,15 +300,6 @@ iframe {
     background-repeat: round;
     min-height: 200px;
   }
-  iframe {
-    margin-left: 0%;
-    width: 100%;
-    zoom: 50%;
-  }
-  .bgimg-4 {
-    margin-left: 0%;
-  }
-}
 
 .typewriter-text {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
