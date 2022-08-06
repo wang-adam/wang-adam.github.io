@@ -1,0 +1,120 @@
+.group {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  font-size: 1.4rem;
+  overflow: hidden;
+  word-wrap: break-word;
+  user-select: none;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2.5px solid black;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+.inside {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+.flex-container {
+  display: flex;
+}
+
+p,
+button {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", sans-serif;
+  font-size: 25px;
+  background-color: transparent;
+  border-radius: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+/* Create four equal columns that sits next to each other */
+.fourcolumn {
+  -ms-flex: 100%; /* IE10 */
+  flex: 100%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.threecolumn {
+  -ms-flex: 100%; /* IE10 */
+  flex: 100%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+
+img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .fourcolumn,
+  .threecolumn {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .fourcolumn,
+  .threecolumn {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.collapsible {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #b0c2cf;
+}
+
+.collapsible:after {
+  content: "\002B";
+  font-weight: bold;
+  float: right;
+  font-size: 25px;
+}
+
+.active:after {
+  content: "\2212";
+  font-size: 25px;
+}
