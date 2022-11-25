@@ -1,9 +1,13 @@
 body {
-  margin: 0;
+ margin: 0
 }
 html {
   scroll-behavior: smooth;
   /* background-color: rgb(40, 40, 40); */
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", sans-serif;
+      word-wrap: break-word;
+      color: whitesmoke
 }
 
 html,
@@ -12,35 +16,22 @@ body {
 }
 
 .title {
-  font-size: 1.6vmax;
+  font-size: 2vmax;
 }
 
-.text {
-  margin-top: 1.2vmax;
-}
-
-p,
-a {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", sans-serif;
-  font-size: 1.25vmax;
+p {
+  font-size: 1.6vw;
   overflow: hidden;
-  word-wrap: break-word;
-  color: whitesmoke;
 }
 
 a {
   text-decoration: none;
   text-align: justify;
-  color: rgb(103, 111, 202);
+  color: #3C91E6;
 }
 
 a:hover {
   color: red;
-}
-
-.a2 {
-  color: whitesmoke;
 }
 
 .space::before {
@@ -52,30 +43,39 @@ a:hover {
   pointer-events: none;
 }
 
-.caption {
-  position: absolute;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", sans-serif;
+.section-caption {
+  position: flex;
   font-size: 3vmax;
   overflow: hidden;
   word-wrap: break-word;
-  top: 50%;
-  margin-left: 25%;
-  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 16vh 0;
+}
+
+.name-title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", sans-serif; 
+  position: absolute;
+  font-size: 3vmax;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-align: left;
+  padding: 50vh 25vw;
 }
 
 .grid-container {
   display: grid;
   grid-gap: 10px;
+  padding: 0 10%;
 }
 
 .grid-item {
   border-radius: 1vmax;
   border: 1.7px solid whitesmoke;
-  padding: 3%;
+  background-color: rgb(40, 40, 40);
+  padding: 5%;
   text-align: center;
-  background-color: rgb(60, 60, 60);
-  margin: 1%;
+  margin: 5%;
   min-width: 30%;
 }
 
@@ -88,7 +88,7 @@ a:hover {
   grid-column: 2;
   grid-row: 1;
 }
-
+/* 
 .item3 {
   grid-column: 3;
   grid-row: 1;
@@ -102,7 +102,7 @@ a:hover {
 .item5 {
   grid-column: 5;
   grid-row: 1;
-}
+} */
 
 img,
 video {
@@ -116,8 +116,7 @@ video {
 button {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", sans-serif;
-  font-size: 1.25vmax;
-  padding: 1%;
+  font-size: 1.6vw;
 }
 
 .content {
@@ -130,13 +129,14 @@ button {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
 .collapsible {
   cursor: pointer;
   width: 100%;
   border: none;
+  color: whitesmoke;
   text-align: left;
   vertical-align: center;
-  color: whitesmoke;
   border-radius: 1vmax;
   border: 1.7px solid whitesmoke;
   padding: 1vmax 1vmax;
@@ -150,13 +150,13 @@ button {
 }
 
 .collapsible1 {
-  background-color: rgb(60, 60, 60);
-  margin-top: 2%;
+  background-color: rgb(40, 40, 40);
+  margin-top: 2% ;
 }
 
 .collapsible2 {
   background: rgba(33, 87, 111, 255);
-  margin-bottom: 2%;
+  margin: 1% 0;
 }
 
 .active,
@@ -168,14 +168,14 @@ button {
   content: "\002B";
   font-weight: bold;
   float: right;
-  font-size: 1.25vmax;
+  font-size: 1.6vw;
 }
 
 .active:after {
   content: "\2212";
   font-weight: bold;
   float: right;
-  font-size: 1.25vmax;
+  font-size: 1.6vw;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -214,8 +214,7 @@ button {
 }
 
 .inside {
-  margin-left: 0%;
-  margin-right: 0%;
+  margin: 0 12%;
 }
 
 .flex-container {
@@ -226,11 +225,11 @@ button {
   box-sizing: border-box;
 }
 
-.shiftright {
+/* .shiftright {
   margin-left: 9%;
-}
+} */
 
-nav {
+/* nav {
   position: fixed;
   top: 35%;
   left: 0;
@@ -253,15 +252,15 @@ nav ul {
 
 nav ul li{
   margin: 1.4vh 0;
-}
+} */
 
-nav ul li a.current {
-  color: whitesmoke;
-}
+/* nav ul li a.current {
+  color: whitesmoke
+} */
 
-nav ul li a {
+/* nav ul li a {
   color: rgb(103, 111, 202);
-}
+} */
 
 .bgimg {
   position: relative;
@@ -279,13 +278,13 @@ nav ul li a {
 
 .bgimg-2 {
   background-image: url("./newWebsiteAssets/SierpinskiTriangle_Trim_Moment.jpg");
-  min-height: 500px;
+  height: 33vh;
 }
 
 .bgimg-3 {
   background-image: url("./newWebsiteAssets/ice.jpg");
   /* background-position: center; */
-  min-height: 500px;
+  height: 33vh;
 }
 
 @media only screen and (max-width: 499px) {
@@ -358,5 +357,5 @@ ul{
 
 ::-webkit-scrollbar {
     width: 0px;
-    background: transparent; /* make scrollbar transparent */
+    background: transparent;  make scrollbar transparent
 } */
