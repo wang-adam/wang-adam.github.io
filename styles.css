@@ -20,7 +20,7 @@ body {
 }
 
 p {
-  font-size: 1.6vw;
+  font-size: 1.6vmax;
   overflow: hidden;
 }
 
