@@ -16,11 +16,11 @@ body {
 }
 
 .title {
-  font-size: 2vmax;
+  font-size: min(2vmax, 50px);;
 }
 
 p {
-  font-size: 1.6vmax;
+  font-size: min(1.6vmax, 35px);
   overflow: hidden;
 }
 
@@ -276,6 +276,11 @@ nav ul li{
   min-height: 100%;
 }
 
+.bgimg-12 {
+  background-color: rgb(40, 40, 40);
+  min-height: 100%;
+}
+
 .bgimg-2 {
   background-image: url("./newWebsiteAssets/SierpinskiTriangle_Trim_Moment.jpg");
   height: 33vh;
@@ -286,6 +291,8 @@ nav ul li{
   /* background-position: center; */
   height: 33vh;
 }
+
+
 
 @media only screen and (max-width: 499px) {
   .bgimg {
