@@ -272,13 +272,12 @@ nav ul li{
 }
 
 .bgimg-1 {
-  background-image: url("./newWebsiteAssets/pfp.jpg");
+  background-image: url("./newWebsiteAssets/welcomebackground.jpg");
   min-height: 100%;
 }
 
 .bgimg-12 {
   background-color: rgb(40, 40, 40);
-  min-height: 100%;
 }
 
 .bgimg-2 {
